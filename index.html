@@ -1,0 +1,2108 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="فروشگاه آنلاین ilyacompany — خرید آنلاین ابزار صنعتی، مصالح ساختمانی، لوازم خانگی، پوشاک و مواد غذایی با بهترین قیمت و ارسال سریع">
+<meta name="keywords" content="خرید آنلاین، ابزار صنعتی، مصالح ساختمانی، لوازم خانگی، پوشاک، مواد غذایی، ilyacompany">
+<meta name="author" content="ilyacompany">
+<meta property="og:title" content="ilyacompany — فروشگاه جامع آنلاین">
+<meta property="og:description" content="بزرگترین فروشگاه آنلاین با بیش از ۵۰۰۰ کالا در ۵ دسته اصلی">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<link rel="canonical" href="https://ilyacompany.ir">
+<title>ilyacompany | فروشگاه جامع آنلاین — ابزار، ساختمان، خانگی، پوشاک، غذایی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+:root{
+  --gold:#C9A84C;
+  --gold-light:#F0D98A;
+  --gold-dark:#8B6914;
+  --navy:#0F172A;
+  --navy-mid:#1E293B;
+  --navy-soft:#334155;
+  --surface:#FFFFFF;
+  --surface2:#F8FAFC;
+  --surface3:#F1F5F9;
+  --border:#E2E8F0;
+  --border2:#CBD5E1;
+  --text:#0F172A;
+  --text2:#475569;
+  --text3:#94A3B8;
+  --radius:12px;
+  --radius-sm:8px;
+  --radius-lg:16px;
+  --radius-xl:24px;
+  --shadow:0 1px 3px rgba(0,0,0,0.08),0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:0 4px 12px rgba(0,0,0,0.08),0 2px 6px rgba(0,0,0,0.04);
+  --shadow-lg:0 10px 30px rgba(0,0,0,0.12);
+  --trans:all 0.2s ease;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Vazirmatn',sans-serif;
+  direction:rtl;
+  background:var(--surface2);
+  color:var(--text);
+  line-height:1.6;
+  font-size:14px;
+}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit}
+input,textarea,select{font-family:inherit}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--surface3)}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* ─── TOPBAR ─── */
+.topbar{
+  background:var(--navy);
+  color:#fff;
+  font-size:12px;
+  padding:6px 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.topbar a{color:#aaa;margin:0 8px}
+.topbar a:hover{color:var(--gold)}
+
+/* ─── HEADER ─── */
+.header{
+  background:var(--navy-mid);
+  position:sticky;top:0;z-index:200;
+  box-shadow:0 2px 20px rgba(0,0,0,0.3);
+}
+.header-inner{
+  max-width:1280px;margin:0 auto;
+  display:flex;align-items:center;gap:1.5rem;
+  padding:0.75rem 1.5rem;
+}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo-mark{
+  width:44px;height:44px;border-radius:12px;
+  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;font-weight:700;color:var(--navy);
+  letter-spacing:-1px;
+}
+.logo-text{display:flex;flex-direction:column;line-height:1.1}
+.logo-main{font-size:18px;font-weight:700;color:#fff;letter-spacing:1px}
+.logo-main span{color:var(--gold)}
+.logo-sub{font-size:10px;color:#94A3B8;letter-spacing:2px}
+
+.search-bar{
+  flex:1;display:flex;align-items:center;
+  background:var(--navy-soft);
+  border-radius:var(--radius);
+  border:1px solid rgba(255,255,255,0.1);
+  overflow:hidden;
+  transition:var(--trans);
+}
+.search-bar:focus-within{border-color:var(--gold);background:rgba(201,168,76,0.08)}
+.search-cat{
+  padding:0 0.75rem;
+  background:rgba(255,255,255,0.05);
+  border:none;border-left:1px solid rgba(255,255,255,0.1);
+  color:#aaa;font-size:12px;height:42px;
+  cursor:pointer;min-width:110px;
+}
+.search-cat option{background:var(--navy)}
+.search-input{
+  flex:1;border:none;background:none;
+  padding:0 0.75rem;height:42px;
+  color:#fff;font-size:14px;outline:none;
+}
+.search-input::placeholder{color:#64748B}
+.search-btn{
+  padding:0 1rem;height:42px;
+  background:var(--gold);color:var(--navy);
+  border:none;font-size:16px;font-weight:500;
+  display:flex;align-items:center;gap:6px;
+  transition:var(--trans);
+}
+.search-btn:hover{background:var(--gold-light)}
+
+.header-actions{display:flex;align-items:center;gap:0.5rem;flex-shrink:0}
+.h-btn{
+  display:flex;flex-direction:column;align-items:center;
+  gap:2px;padding:6px 10px;border-radius:var(--radius-sm);
+  background:none;border:none;color:#94A3B8;
+  font-size:10px;transition:var(--trans);
+  position:relative;
+}
+.h-btn:hover{background:rgba(255,255,255,0.08);color:#fff}
+.h-btn i{font-size:22px}
+.h-btn .badge{
+  position:absolute;top:2px;left:6px;
+  width:18px;height:18px;border-radius:50%;
+  background:var(--gold);color:var(--navy);
+  font-size:10px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+
+/* ─── MEGA NAV ─── */
+.mega-nav{
+  background:var(--navy);
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+.mega-nav-inner{
+  max-width:1280px;margin:0 auto;
+  display:flex;align-items:stretch;
+  padding:0 1.5rem;
+}
+.nav-item{
+  position:relative;
+  display:flex;align-items:center;gap:6px;
+  padding:0.65rem 1rem;
+  color:#CBD5E1;font-size:13px;font-weight:500;
+  border:none;background:none;
+  cursor:pointer;transition:var(--trans);
+  white-space:nowrap;
+  border-bottom:2px solid transparent;
+}
+.nav-item:hover,.nav-item.active{
+  color:#fff;
+  border-bottom-color:var(--gold);
+}
+.nav-item i{font-size:16px}
+.nav-item .arrow{font-size:11px;margin-right:2px;transition:transform 0.2s}
+.nav-item:hover .arrow{transform:rotate(180deg)}
+
+.dropdown{
+  display:none;
+  position:absolute;top:100%;right:0;z-index:300;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-lg);
+  min-width:680px;
+  padding:1.5rem;
+}
+.nav-item:hover .dropdown{display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem}
+.dd-section{margin-bottom:0}
+.dd-title{
+  font-size:11px;font-weight:700;color:var(--text3);
+  text-transform:uppercase;letter-spacing:0.08em;
+  padding:0.3rem 0.5rem;margin-bottom:0.25rem;
+}
+.dd-link{
+  display:flex;align-items:center;gap:8px;
+  padding:6px 8px;border-radius:var(--radius-sm);
+  font-size:13px;color:var(--text2);
+  transition:var(--trans);
+}
+.dd-link:hover{background:var(--surface3);color:var(--text)}
+.dd-link i{font-size:15px;color:var(--gold)}
+
+/* ─── LAYOUT ─── */
+.main-wrap{max-width:1280px;margin:0 auto;padding:1.5rem}
+.two-col{display:flex;gap:1.25rem;align-items:flex-start}
+.sidebar{width:220px;flex-shrink:0;position:sticky;top:72px}
+.content{flex:1;min-width:0}
+
+/* ─── SIDEBAR ─── */
+.sidebar-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  margin-bottom:1rem;
+}
+.sc-head{
+  padding:0.75rem 1rem;
+  background:var(--navy);
+  color:#fff;font-size:13px;font-weight:500;
+  display:flex;align-items:center;gap:8px;
+}
+.sc-head i{font-size:16px;color:var(--gold)}
+.sc-body{padding:0.5rem}
+.sc-cat{
+  display:flex;align-items:center;gap:8px;
+  padding:7px 8px;border-radius:var(--radius-sm);
+  font-size:13px;color:var(--text2);cursor:pointer;
+  transition:var(--trans);
+  border-right:3px solid transparent;
+}
+.sc-cat:hover{background:var(--surface3);color:var(--text)}
+.sc-cat.active{
+  background:#FFF8E7;color:var(--gold-dark);
+  border-right-color:var(--gold);font-weight:500;
+}
+.sc-cat i{font-size:16px}
+.sc-cat .cnt{
+  margin-right:auto;font-size:11px;
+  background:var(--surface3);color:var(--text3);
+  padding:1px 7px;border-radius:20px;
+}
+.sc-cat.active .cnt{background:rgba(201,168,76,0.15);color:var(--gold-dark)}
+
+.sub-list{padding:0.25rem 0 0.25rem 1rem;display:none}
+.sc-cat.open + .sub-list{display:block}
+.sub-item{
+  display:flex;align-items:center;gap:6px;
+  padding:5px 8px;border-radius:var(--radius-sm);
+  font-size:12px;color:var(--text3);cursor:pointer;
+  transition:var(--trans);
+}
+.sub-item:hover{background:var(--surface3);color:var(--text2)}
+.sub-item.active{color:var(--gold);font-weight:500}
+.sub-item::before{content:'–';margin-left:2px}
+
+/* ─── HERO ─── */
+.hero{
+  background:var(--navy);
+  border-radius:var(--radius-xl);
+  padding:2.5rem;
+  margin-bottom:1.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  overflow:hidden;position:relative;
+}
+.hero::before{
+  content:'';
+  position:absolute;top:-40px;left:-40px;
+  width:300px;height:300px;
+  border-radius:50%;
+  background:rgba(201,168,76,0.08);
+  pointer-events:none;
+}
+.hero::after{
+  content:'';
+  position:absolute;bottom:-60px;right:100px;
+  width:200px;height:200px;
+  border-radius:50%;
+  background:rgba(201,168,76,0.05);
+  pointer-events:none;
+}
+.hero-content{position:relative;z-index:1}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(201,168,76,0.15);
+  color:var(--gold);
+  font-size:11px;font-weight:500;
+  padding:4px 12px;border-radius:20px;
+  margin-bottom:1rem;letter-spacing:0.05em;
+}
+.hero-h1{font-size:30px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:0.5rem}
+.hero-h1 em{color:var(--gold);font-style:normal}
+.hero-p{font-size:14px;color:#94A3B8;margin-bottom:1.5rem;max-width:360px;line-height:1.7}
+.hero-btns{display:flex;gap:0.75rem;flex-wrap:wrap}
+.btn-gold{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 22px;border-radius:var(--radius);
+  background:var(--gold);color:var(--navy);
+  font-size:14px;font-weight:500;border:none;
+  transition:var(--trans);
+}
+.btn-gold:hover{background:var(--gold-light);transform:translateY(-1px)}
+.btn-outline{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 20px;border-radius:var(--radius);
+  background:transparent;color:#fff;
+  font-size:14px;border:1px solid rgba(255,255,255,0.2);
+  transition:var(--trans);
+}
+.btn-outline:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.4)}
+.hero-stats{
+  display:flex;gap:1.5rem;margin-top:1.5rem;
+  padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.08);
+}
+.hero-stat{text-align:center}
+.hs-n{font-size:22px;font-weight:700;color:var(--gold)}
+.hs-l{font-size:11px;color:#64748B}
+.hero-visual{
+  font-size:100px;position:relative;z-index:1;
+  opacity:0.9;
+  animation:float 4s ease-in-out infinite;
+}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+/* ─── TRUST BAR ─── */
+.trust-bar{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:1px;background:var(--border);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  margin-bottom:1.5rem;
+}
+.tb-item{
+  background:var(--surface);
+  display:flex;align-items:center;gap:0.75rem;
+  padding:0.85rem 1rem;
+}
+.tb-icon{
+  width:38px;height:38px;border-radius:10px;
+  background:linear-gradient(135deg,rgba(201,168,76,0.15),rgba(201,168,76,0.05));
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;color:var(--gold);flex-shrink:0;
+}
+.tb-text strong{display:block;font-size:13px;font-weight:500;color:var(--text)}
+.tb-text span{font-size:11px;color:var(--text3)}
+
+/* ─── SECTION TITLE ─── */
+.sec-title{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:1rem;
+}
+.st-left{display:flex;align-items:center;gap:0.75rem}
+.st-bar{width:4px;height:22px;background:var(--gold);border-radius:2px}
+.st-text{font-size:16px;font-weight:700;color:var(--text)}
+.st-sub{font-size:12px;color:var(--text3);margin-top:1px}
+.see-all{
+  font-size:12px;color:var(--gold);
+  display:flex;align-items:center;gap:4px;
+  border:1px solid rgba(201,168,76,0.3);
+  padding:5px 12px;border-radius:20px;
+  transition:var(--trans);background:none;
+}
+.see-all:hover{background:rgba(201,168,76,0.08)}
+
+/* ─── CAT GRID ─── */
+.cat-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);
+  gap:0.75rem;margin-bottom:1.5rem;
+}
+.cat-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  padding:1.25rem 0.75rem;
+  text-align:center;cursor:pointer;
+  transition:var(--trans);
+  position:relative;overflow:hidden;
+}
+.cat-card::before{
+  content:'';position:absolute;bottom:0;right:0;left:0;
+  height:3px;background:var(--gold);
+  transform:scaleX(0);transition:transform 0.3s;
+}
+.cat-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.cat-card:hover::before{transform:scaleX(1)}
+.cat-card.active{border-color:var(--gold);background:#FFFBEB}
+.cat-card.active::before{transform:scaleX(1)}
+.cc-icon{font-size:36px;margin-bottom:0.5rem;display:block}
+.cc-name{font-size:12px;font-weight:500;color:var(--text);line-height:1.3}
+.cc-count{font-size:10px;color:var(--text3);margin-top:2px}
+
+/* ─── PRODUCT GRID ─── */
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+  gap:1rem;
+}
+.p-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  overflow:hidden;cursor:pointer;
+  transition:var(--trans);
+  position:relative;
+}
+.p-card:hover{border-color:var(--border2);box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.p-card:hover .p-quick{opacity:1;transform:translateY(0)}
+.p-img-wrap{
+  position:relative;
+  background:var(--surface3);
+  height:150px;
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
+}
+.p-emoji{font-size:60px;user-select:none}
+.p-img-real{width:100%;height:100%;object-fit:cover;position:absolute;top:0;right:0}
+.p-badges{position:absolute;top:8px;right:8px;display:flex;flex-direction:column;gap:3px}
+.badge{font-size:10px;padding:2px 7px;border-radius:6px;font-weight:500}
+.b-new{background:#DBEAFE;color:#1D4ED8}
+.b-off{background:#FEE2E2;color:#B91C1C}
+.b-hot{background:#FEF3C7;color:#92400E}
+.b-best{background:#D1FAE5;color:#065F46}
+.p-wish{
+  position:absolute;top:8px;left:8px;
+  width:28px;height:28px;border-radius:50%;
+  background:rgba(255,255,255,0.9);
+  border:none;display:flex;align-items:center;justify-content:center;
+  font-size:14px;transition:var(--trans);color:var(--text3);
+  opacity:0;
+}
+.p-card:hover .p-wish{opacity:1}
+.p-wish:hover{background:#fff;color:#EF4444}
+.p-wish.active{opacity:1;color:#EF4444}
+.p-quick{
+  position:absolute;bottom:0;right:0;left:0;
+  background:rgba(15,23,42,0.9);
+  color:#fff;border:none;
+  padding:8px;font-size:12px;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  opacity:0;transform:translateY(8px);
+  transition:var(--trans);
+}
+.p-quick:hover{background:var(--gold);color:var(--navy)}
+.p-body{padding:0.75rem}
+.p-cat-tag{
+  font-size:10px;color:var(--text3);
+  margin-bottom:4px;
+  display:flex;align-items:center;gap:4px;
+}
+.p-name{font-size:13px;font-weight:500;color:var(--text);line-height:1.4;margin-bottom:3px}
+.p-brand{font-size:11px;color:var(--text3);margin-bottom:6px}
+.p-rating{display:flex;align-items:center;gap:3px;margin-bottom:6px}
+.stars{color:var(--gold);font-size:11px}
+.rating-n{font-size:10px;color:var(--text3)}
+.p-price-row{display:flex;align-items:center;justify-content:space-between;gap:4px}
+.p-price{font-size:14px;font-weight:700;color:var(--text)}
+.p-old{font-size:11px;color:var(--text3);text-decoration:line-through}
+.p-discount{font-size:10px;color:#EF4444;font-weight:500;
+  background:#FEE2E2;padding:1px 5px;border-radius:4px}
+.add-btn{
+  width:30px;height:30px;border-radius:var(--radius-sm);
+  background:var(--navy);color:var(--gold);
+  border:none;display:flex;align-items:center;justify-content:center;
+  font-size:18px;transition:var(--trans);flex-shrink:0;
+}
+.add-btn:hover{background:var(--gold);color:var(--navy)}
+
+/* ─── FILTER BAR ─── */
+.filter-bar{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-lg);
+  padding:0.75rem 1rem;
+  display:flex;align-items:center;gap:0.75rem;
+  margin-bottom:1rem;flex-wrap:wrap;
+}
+.fb-label{font-size:12px;color:var(--text3);white-space:nowrap}
+.sort-btn{
+  font-size:12px;padding:5px 12px;
+  border-radius:20px;border:1px solid var(--border);
+  background:var(--surface);color:var(--text2);cursor:pointer;
+  transition:var(--trans);white-space:nowrap;
+}
+.sort-btn:hover,.sort-btn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.fb-sep{width:1px;height:20px;background:var(--border)}
+.results-count{font-size:12px;color:var(--text3);margin-right:auto}
+.view-btns{display:flex;gap:4px}
+.vbtn{
+  width:30px;height:30px;border:1px solid var(--border);
+  border-radius:var(--radius-sm);background:var(--surface);
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;color:var(--text3);cursor:pointer;transition:var(--trans);
+}
+.vbtn:hover,.vbtn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* ─── PRODUCT DETAIL MODAL ─── */
+.modal-bg{
+  display:none;
+  position:fixed;inset:0;z-index:500;
+  background:rgba(15,23,42,0.7);
+  backdrop-filter:blur(4px);
+  align-items:center;justify-content:center;
+  padding:1rem;
+}
+.modal-bg.open{display:flex}
+.modal{
+  background:var(--surface);
+  border-radius:var(--radius-xl);
+  width:100%;max-width:800px;
+  max-height:90vh;overflow-y:auto;
+  box-shadow:var(--shadow-lg);
+  animation:modalIn 0.25s ease;
+}
+@keyframes modalIn{from{opacity:0;transform:scale(0.95)}to{opacity:1;transform:scale(1)}}
+.modal-header{
+  padding:1.25rem 1.5rem;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;background:var(--surface);z-index:1;
+}
+.modal-title{font-size:17px;font-weight:700;color:var(--text)}
+.modal-close{
+  width:36px;height:36px;border-radius:var(--radius-sm);
+  background:var(--surface3);border:none;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;color:var(--text2);transition:var(--trans);
+}
+.modal-close:hover{background:var(--border2)}
+.modal-body{padding:1.5rem}
+.modal-top{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem}
+.modal-gallery{background:var(--surface3);border-radius:var(--radius-lg);
+  min-height:240px;display:flex;align-items:center;justify-content:center;
+  font-size:100px;position:relative;overflow:hidden;
+}
+.gallery-thumbs{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.thumb{
+  width:52px;height:52px;border-radius:var(--radius-sm);
+  background:var(--surface3);border:2px solid transparent;
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;cursor:pointer;overflow:hidden;transition:var(--trans);
+}
+.thumb:hover,.thumb.active{border-color:var(--gold)}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.upload-zone{
+  border:2px dashed var(--border2);
+  border-radius:var(--radius);padding:1rem;
+  text-align:center;cursor:pointer;
+  transition:var(--trans);margin-top:8px;
+}
+.upload-zone:hover{border-color:var(--gold);background:rgba(201,168,76,0.04)}
+.upload-zone i{font-size:24px;color:var(--text3);display:block;margin-bottom:4px}
+.upload-zone p{font-size:12px;color:var(--text3)}
+.upload-btns-row{display:flex;gap:6px;margin-top:6px}
+.ubtn{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:5px;
+  padding:6px 10px;border-radius:var(--radius-sm);
+  border:1px solid var(--border2);background:var(--surface3);
+  color:var(--text2);font-size:12px;cursor:pointer;transition:var(--trans);
+}
+.ubtn:hover{border-color:var(--gold);color:var(--gold-dark)}
+.modal-info{}
+.mi-cat{font-size:11px;color:var(--text3);margin-bottom:4px;display:flex;align-items:center;gap:4px}
+.mi-name{font-size:20px;font-weight:700;color:var(--text);margin-bottom:4px}
+.mi-brand{font-size:13px;color:var(--text2);margin-bottom:8px}
+.mi-rating{display:flex;align-items:center;gap:6px;margin-bottom:12px}
+.mi-desc{font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:1rem}
+.mi-price-box{
+  background:var(--surface3);border-radius:var(--radius);
+  padding:0.875rem 1rem;margin-bottom:1rem;
+}
+.mi-old{font-size:12px;color:var(--text3);text-decoration:line-through;margin-bottom:2px}
+.mi-price{font-size:22px;font-weight:700;color:var(--navy)}
+.mi-discount-tag{
+  display:inline-block;background:#FEE2E2;color:#B91C1C;
+  font-size:11px;padding:2px 8px;border-radius:6px;margin-right:8px;
+}
+.specs-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:1rem}
+.spec-item{
+  background:var(--surface3);border-radius:var(--radius-sm);
+  padding:8px 10px;
+}
+.spec-l{font-size:10px;color:var(--text3);margin-bottom:2px}
+.spec-v{font-size:12px;font-weight:500;color:var(--text)}
+
+.order-section{
+  border-top:1px solid var(--border);
+  padding-top:1.5rem;
+}
+.os-title{font-size:15px;font-weight:700;color:var(--text);margin-bottom:1rem;display:flex;align-items:center;gap:8px}
+.os-title i{color:var(--gold);font-size:18px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:0.75rem}
+.form-group{display:flex;flex-direction:column;gap:4px}
+.form-group.full{grid-column:1/-1}
+.form-label{font-size:12px;font-weight:500;color:var(--text2)}
+.form-input{
+  padding:9px 12px;border:1px solid var(--border2);
+  border-radius:var(--radius-sm);font-size:13px;
+  color:var(--text);background:var(--surface);
+  transition:var(--trans);outline:none;
+}
+.form-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,0.12)}
+.form-input::placeholder{color:var(--text3)}
+textarea.form-input{resize:vertical;min-height:70px}
+.qty-row{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.qty-label{font-size:13px;color:var(--text2)}
+.qty-ctrl{display:flex;align-items:center;gap:0;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden}
+.qbtn{
+  width:34px;height:34px;background:var(--surface3);border:none;
+  font-size:18px;color:var(--text2);cursor:pointer;transition:var(--trans);
+}
+.qbtn:hover{background:var(--navy);color:var(--gold)}
+.qval{
+  width:44px;text-align:center;font-size:15px;font-weight:500;
+  border:none;border-right:1px solid var(--border2);border-left:1px solid var(--border2);
+  color:var(--text);background:var(--surface);height:34px;outline:none;
+}
+.total-row{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--surface3);border-radius:var(--radius);
+  padding:0.75rem 1rem;margin-bottom:0.75rem;
+}
+.tr-label{font-size:13px;color:var(--text2)}
+.tr-price{font-size:18px;font-weight:700;color:var(--navy)}
+.pay-btn{
+  width:100%;padding:13px;
+  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
+  color:var(--navy);border:none;border-radius:var(--radius);
+  font-size:15px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  transition:var(--trans);
+}
+.pay-btn:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(201,168,76,0.4)}
+.pay-btn i{font-size:18px}
+
+/* ─── PAYMENT PAGE ─── */
+.pay-page{display:none;max-width:500px;margin:2rem auto}
+.pay-page.show{display:block}
+.pay-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-xl);overflow:hidden;
+  box-shadow:var(--shadow-lg);
+}
+.pay-header{
+  background:var(--navy);
+  padding:1.5rem;text-align:center;
+}
+.pay-logo-row{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:0.75rem}
+.pay-bank-logo{
+  width:44px;height:44px;border-radius:10px;
+  background:linear-gradient(135deg,#1a73e8,#0d47a1);
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;color:#fff;
+}
+.pay-bank-name{font-size:16px;font-weight:700;color:#fff}
+.pay-subtitle{font-size:12px;color:#94A3B8}
+.pay-body{padding:1.5rem}
+.pay-info-box{
+  border:1px solid var(--border);border-radius:var(--radius-lg);
+  overflow:hidden;margin-bottom:1.25rem;
+}
+.pib-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 14px;border-bottom:1px solid var(--border);
+  font-size:13px;
+}
+.pib-row:last-child{border-bottom:none}
+.pib-label{color:var(--text3)}
+.pib-val{font-weight:500;color:var(--text)}
+.pib-row.total{background:var(--surface3)}
+.pib-row.total .pib-val{font-size:17px;font-weight:700;color:var(--gold-dark)}
+.card-input{
+  background:var(--navy-mid);border-radius:var(--radius);
+  padding:1rem 1.25rem;margin-bottom:1rem;
+}
+.card-number{
+  font-size:20px;font-weight:500;color:#fff;
+  letter-spacing:3px;direction:ltr;text-align:center;
+  margin-bottom:0.5rem;
+}
+.card-sub{font-size:11px;color:#64748B;text-align:center}
+.pay-confirm{
+  width:100%;padding:13px;
+  background:linear-gradient(135deg,#16A34A,#15803D);
+  color:#fff;border:none;border-radius:var(--radius);
+  font-size:15px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  transition:var(--trans);
+}
+.pay-confirm:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(22,163,74,0.3)}
+.pay-back{
+  width:100%;padding:10px;
+  background:var(--surface3);color:var(--text2);
+  border:1px solid var(--border);border-radius:var(--radius);
+  font-size:13px;margin-top:8px;transition:var(--trans);
+}
+.pay-back:hover{background:var(--border)}
+
+/* ─── SUCCESS PAGE ─── */
+.success-page{display:none;max-width:440px;margin:2rem auto}
+.success-page.show{display:block}
+.success-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-xl);padding:2.5rem 2rem;
+  text-align:center;box-shadow:var(--shadow-lg);
+}
+.success-anim{
+  width:80px;height:80px;border-radius:50%;
+  background:linear-gradient(135deg,#DCFCE7,#BBF7D0);
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 1.25rem;
+  animation:popIn 0.5s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+@keyframes popIn{from{transform:scale(0)}to{transform:scale(1)}}
+.success-anim i{font-size:36px;color:#16A34A}
+.success-h{font-size:22px;font-weight:700;color:var(--text);margin-bottom:0.5rem}
+.success-p{font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:1.25rem}
+.order-code{
+  background:var(--surface3);border:1px dashed var(--border2);
+  border-radius:var(--radius);padding:0.75rem;
+  font-size:20px;font-weight:700;color:var(--gold-dark);
+  letter-spacing:2px;margin-bottom:1.25rem;
+}
+.order-summary-box{
+  background:var(--surface3);border-radius:var(--radius);
+  padding:1rem;margin-bottom:1.25rem;text-align:right;
+}
+.osb-row{display:flex;justify-content:space-between;font-size:12px;padding:4px 0}
+.osb-l{color:var(--text3)}
+.osb-v{font-weight:500;color:var(--text)}
+.btn-home{
+  width:100%;padding:12px;background:var(--navy);color:var(--gold);
+  border:none;border-radius:var(--radius);font-size:14px;font-weight:500;
+  transition:var(--trans);display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.btn-home:hover{background:var(--gold);color:var(--navy)}
+
+/* ─── ADMIN ─── */
+.admin-wrap{max-width:1000px;margin:0 auto;padding:1.5rem}
+.admin-login-page{display:none;max-width:380px;margin:3rem auto}
+.admin-login-page.show{display:block}
+.alp-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-xl);overflow:hidden;
+  box-shadow:var(--shadow-lg);
+}
+.alp-header{
+  background:var(--navy);padding:1.5rem;text-align:center;
+}
+.alp-icon{
+  width:56px;height:56px;border-radius:14px;
+  background:linear-gradient(135deg,var(--gold),var(--gold-dark));
+  display:flex;align-items:center;justify-content:center;
+  font-size:28px;color:var(--navy);margin:0 auto 0.75rem;
+}
+.alp-title{font-size:18px;font-weight:700;color:#fff}
+.alp-sub{font-size:12px;color:#94A3B8;margin-top:2px}
+.alp-body{padding:1.5rem}
+.alp-err{
+  background:#FEE2E2;color:#B91C1C;
+  font-size:12px;padding:8px 12px;border-radius:var(--radius-sm);
+  margin-bottom:8px;display:none;
+}
+.alp-err.show{display:block}
+
+.admin-dash{display:none}
+.admin-dash.show{display:block}
+.dash-header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:1.5rem;
+}
+.dash-title{font-size:20px;font-weight:700;color:var(--text)}
+.admin-logout{
+  font-size:12px;padding:6px 14px;
+  border:1px solid var(--border2);border-radius:var(--radius-sm);
+  background:none;color:var(--text2);cursor:pointer;transition:var(--trans);
+  display:flex;align-items:center;gap:6px;
+}
+.admin-logout:hover{background:var(--surface3)}
+.dash-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1.5rem}
+.ds-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-lg);padding:1rem 1.25rem;
+}
+.ds-icon{
+  width:38px;height:38px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;margin-bottom:0.5rem;
+}
+.ds-n{font-size:24px;font-weight:700;color:var(--text)}
+.ds-l{font-size:12px;color:var(--text3)}
+.orders-table{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-lg);overflow:hidden;
+}
+.ot-header{
+  padding:1rem 1.25rem;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.ot-title{font-size:15px;font-weight:700;color:var(--text)}
+.ot-actions{display:flex;gap:6px}
+.ot-filter{
+  font-size:12px;padding:5px 12px;border-radius:20px;
+  border:1px solid var(--border);background:var(--surface);color:var(--text2);
+  cursor:pointer;transition:var(--trans);
+}
+.ot-filter.active,.ot-filter:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.order-row{
+  padding:1rem 1.25rem;
+  border-bottom:1px solid var(--border);
+  transition:var(--trans);
+}
+.order-row:last-child{border-bottom:none}
+.order-row:hover{background:var(--surface3)}
+.or-top{display:flex;align-items:center;gap:0.75rem;margin-bottom:6px}
+.or-id{font-size:13px;font-weight:700;color:var(--navy)}
+.or-status{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:500}
+.st-new2{background:#DBEAFE;color:#1D4ED8}
+.st-proc{background:#FEF3C7;color:#92400E}
+.st-done2{background:#D1FAE5;color:#065F46}
+.or-time{font-size:11px;color:var(--text3);margin-right:auto}
+.or-amount{font-size:14px;font-weight:700;color:var(--gold-dark)}
+.or-detail{display:flex;gap:1.5rem;font-size:12px;color:var(--text3)}
+.or-detail span{display:flex;align-items:center;gap:4px}
+.or-addr{font-size:11px;color:var(--text3);margin-top:4px;display:flex;align-items:flex-start;gap:4px}
+.or-change{
+  font-size:11px;padding:3px 10px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);background:var(--surface);color:var(--text2);
+  cursor:pointer;transition:var(--trans);margin-right:auto;
+}
+.or-change:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.empty-orders{padding:3rem;text-align:center;color:var(--text3)}
+.empty-orders i{font-size:48px;display:block;margin-bottom:0.75rem}
+
+/* ─── TOAST ─── */
+.toast{
+  position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%) translateY(100px);
+  background:var(--navy);color:#fff;
+  padding:10px 20px;border-radius:30px;
+  font-size:13px;box-shadow:var(--shadow-lg);
+  z-index:9999;transition:transform 0.3s ease;
+  display:flex;align-items:center;gap:8px;
+  white-space:nowrap;
+}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast i{color:var(--gold)}
+
+/* ─── FOOTER ─── */
+.footer{
+  background:var(--navy);color:#94A3B8;
+  margin-top:3rem;padding:2rem 1.5rem 1rem;
+}
+.footer-inner{max-width:1280px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem}
+.footer-brand .logo-main{font-size:20px;color:#fff;margin-bottom:0.5rem}
+.footer-brand p{font-size:12px;line-height:1.7;margin-bottom:1rem}
+.footer-h{font-size:13px;font-weight:700;color:#fff;margin-bottom:0.75rem}
+.footer-links{display:flex;flex-direction:column;gap:6px}
+.footer-links a{font-size:12px;color:#94A3B8;transition:var(--trans)}
+.footer-links a:hover{color:var(--gold)}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding-top:1rem;display:flex;align-items:center;justify-content:space-between;
+  font-size:11px;
+}
+
+/* ─── VIEWS ─── */
+#view-shop,#view-payment,#view-success,#view-admin{display:none}
+#view-shop.active,#view-payment.active,#view-success.active,#view-admin.active{display:block}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:768px){
+  .mega-nav-inner{overflow-x:auto}
+  .cat-grid{grid-template-columns:repeat(3,1fr)}
+  .two-col{flex-direction:column}
+  .sidebar{width:100%;position:static}
+  .modal-top{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .dash-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-visual{display:none}
+}
+</style>
+</head>
+<body itemscope itemtype="https://schema.org/WebSite">
+
+<div class="toast" id="toast" role="alert" aria-live="polite">
+  <i class="ti ti-check"></i>
+  <span id="toast-msg">عملیات انجام شد</span>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     TOPBAR
+═══════════════════════════════════════════ -->
+<div class="topbar" role="complementary">
+  <span>📞 ۰۲۱-۱۲۳۴-۵۶۷۸ &nbsp;|&nbsp; 📧 info@ilyacompany.ir</span>
+  <span>
+    <a href="#" onclick="setLang('fa');return false">فارسی</a>
+    <a href="#" onclick="setLang('ar');return false">العربية</a>
+    <a href="#" onclick="setLang('en');return false">English</a>
+  </span>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════ -->
+<header class="header" role="banner" itemscope itemtype="https://schema.org/Organization">
+  <div class="header-inner">
+    <div class="logo" onclick="goHome()" style="cursor:pointer">
+      <div class="logo-mark" aria-hidden="true">I</div>
+      <div class="logo-text">
+        <span class="logo-main" itemprop="name">ilya<span>company</span></span>
+        <span class="logo-sub">ONLINE STORE</span>
+      </div>
+    </div>
+    <div class="search-bar" role="search">
+      <select class="search-cat" id="search-cat" aria-label="دسته‌بندی جستجو">
+        <option value="all">همه دسته‌ها</option>
+        <option value="industrial">ابزار صنعتی</option>
+        <option value="construction">ساختمانی</option>
+        <option value="home">خانگی و منزل</option>
+        <option value="clothing">پوشاک</option>
+        <option value="food">مواد غذایی</option>
+      </select>
+      <input class="search-input" id="search-input" type="search"
+        placeholder="جستجو در بیش از ۵۰۰۰ کالا..."
+        aria-label="جستجوی کالا"
+        oninput="liveSearch()">
+      <button class="search-btn" onclick="doSearch()" aria-label="جستجو">
+        <i class="ti ti-search" aria-hidden="true"></i>
+        جستجو
+      </button>
+    </div>
+    <div class="header-actions">
+      <button class="h-btn" onclick="showToast('به‌زودی فعال می‌شود')" aria-label="حساب کاربری">
+        <i class="ti ti-user" aria-hidden="true"></i>
+        <span>حساب</span>
+      </button>
+      <button class="h-btn" onclick="showToast('لیست علاقه‌مندی‌ها')" aria-label="علاقه‌مندی‌ها">
+        <i class="ti ti-heart" aria-hidden="true"></i>
+        <span>علاقه‌مندی</span>
+        <span class="badge" id="wish-badge" style="display:none">0</span>
+      </button>
+      <button class="h-btn" onclick="openCart()" aria-label="سبد خرید">
+        <i class="ti ti-shopping-cart" aria-hidden="true"></i>
+        <span>سبد</span>
+        <span class="badge" id="cart-badge">0</span>
+      </button>
+      <button class="h-btn" onclick="goAdmin()" aria-label="پنل مدیریت">
+        <i class="ti ti-shield-check" aria-hidden="true"></i>
+        <span>مدیریت</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════
+     MEGA NAV
+═══════════════════════════════════════════ -->
+<nav class="mega-nav" role="navigation" aria-label="دسته‌بندی اصلی">
+  <div class="mega-nav-inner">
+
+    <button class="nav-item active" id="nav-all" onclick="selectCat('all',this)">
+      <i class="ti ti-layout-grid" aria-hidden="true"></i> همه کالاها
+    </button>
+
+    <button class="nav-item" id="nav-industrial" onclick="selectCat('industrial',this)">
+      <i class="ti ti-tools" aria-hidden="true"></i> ابزار و لوازم صنعتی
+      <i class="ti ti-chevron-down arrow" aria-hidden="true"></i>
+      <div class="dropdown" role="menu">
+        <div class="dd-section">
+          <div class="dd-title">برقی و الکترونیکی</div>
+          <a class="dd-link" onclick="selectSub('industrial','electric',event)"><i class="ti ti-bolt"></i>موتور و ژنراتور</a>
+          <a class="dd-link" onclick="selectSub('industrial','electric',event)"><i class="ti ti-cpu"></i>برد و قطعات الکترونیک</a>
+          <a class="dd-link" onclick="selectSub('industrial','electric',event)"><i class="ti ti-plug"></i>کابل و سیم‌کشی</a>
+          <a class="dd-link" onclick="selectSub('industrial','electric',event)"><i class="ti ti-bulb"></i>روشنایی صنعتی</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">مکانیکی</div>
+          <a class="dd-link" onclick="selectSub('industrial','mechanic',event)"><i class="ti ti-settings"></i>چرخ‌دنده و یاتاقان</a>
+          <a class="dd-link" onclick="selectSub('industrial','mechanic',event)"><i class="ti ti-tool"></i>ابزار دستی</a>
+          <a class="dd-link" onclick="selectSub('industrial','mechanic',event)"><i class="ti ti-hammer"></i>ابزار برقی</a>
+          <a class="dd-link" onclick="selectSub('industrial','mechanic',event)"><i class="ti ti-drill"></i>دریل و فرز</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">چوب و متالوژی</div>
+          <a class="dd-link" onclick="selectSub('industrial','wood',event)"><i class="ti ti-cut"></i>اره و تخته‌کاری</a>
+          <a class="dd-link" onclick="selectSub('industrial','metal',event)"><i class="ti ti-flame"></i>جوشکاری</a>
+          <a class="dd-link" onclick="selectSub('industrial','metal',event)"><i class="ti ti-layers"></i>ورق و پروفیل</a>
+          <a class="dd-link" onclick="selectSub('industrial','safety',event)"><i class="ti ti-shield"></i>ایمنی و حفاظتی</a>
+        </div>
+      </div>
+    </button>
+
+    <button class="nav-item" id="nav-construction" onclick="selectCat('construction',this)">
+      <i class="ti ti-building" aria-hidden="true"></i> مصالح ساختمانی
+      <i class="ti ti-chevron-down arrow" aria-hidden="true"></i>
+      <div class="dropdown" role="menu">
+        <div class="dd-section">
+          <div class="dd-title">سیمان و بتن</div>
+          <a class="dd-link" onclick="selectSub('construction','cement',event)"><i class="ti ti-stack"></i>سیمان</a>
+          <a class="dd-link" onclick="selectSub('construction','cement',event)"><i class="ti ti-square"></i>بلوک و آجر</a>
+          <a class="dd-link" onclick="selectSub('construction','cement',event)"><i class="ti ti-align-center"></i>ملات و چسب</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">کاشی و سرامیک</div>
+          <a class="dd-link" onclick="selectSub('construction','tile',event)"><i class="ti ti-border-all"></i>کاشی دیوار</a>
+          <a class="dd-link" onclick="selectSub('construction','tile',event)"><i class="ti ti-grid-dots"></i>سرامیک کف</a>
+          <a class="dd-link" onclick="selectSub('construction','tile',event)"><i class="ti ti-diamond"></i>سنگ طبیعی</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">لوله و تأسیسات</div>
+          <a class="dd-link" onclick="selectSub('construction','pipe',event)"><i class="ti ti-line"></i>لوله و اتصالات</a>
+          <a class="dd-link" onclick="selectSub('construction','pipe',event)"><i class="ti ti-droplet"></i>شیرآلات</a>
+          <a class="dd-link" onclick="selectSub('construction','elect',event)"><i class="ti ti-bolt"></i>تأسیسات برق</a>
+          <a class="dd-link" onclick="selectSub('construction','paint',event)"><i class="ti ti-paint"></i>رنگ و پوشش</a>
+        </div>
+      </div>
+    </button>
+
+    <button class="nav-item" id="nav-home" onclick="selectCat('home',this)">
+      <i class="ti ti-home" aria-hidden="true"></i> لوازم خانگی
+      <i class="ti ti-chevron-down arrow" aria-hidden="true"></i>
+      <div class="dropdown" role="menu">
+        <div class="dd-section">
+          <div class="dd-title">لوازم بزرگ</div>
+          <a class="dd-link" onclick="selectSub('home','major',event)"><i class="ti ti-device-fridge"></i>یخچال و فریزر</a>
+          <a class="dd-link" onclick="selectSub('home','major',event)"><i class="ti ti-wash-dryer-off"></i>ماشین لباسشویی</a>
+          <a class="dd-link" onclick="selectSub('home','major',event)"><i class="ti ti-device-tv"></i>تلویزیون</a>
+          <a class="dd-link" onclick="selectSub('home','major',event)"><i class="ti ti-wind"></i>کولر و هواساز</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">لوازم کوچک</div>
+          <a class="dd-link" onclick="selectSub('home','small',event)"><i class="ti ti-coffee"></i>چای‌ساز و قهوه‌ساز</a>
+          <a class="dd-link" onclick="selectSub('home','small',event)"><i class="ti ti-bread"></i>توستر و آون</a>
+          <a class="dd-link" onclick="selectSub('home','small',event)"><i class="ti ti-blender"></i>مخلوط‌کن و غذاساز</a>
+          <a class="dd-link" onclick="selectSub('home','small',event)"><i class="ti ti-iron"></i>اتو</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">نظافت و دکور</div>
+          <a class="dd-link" onclick="selectSub('home','cleaning',event)"><i class="ti ti-vacuum-cleaner"></i>جاروبرقی</a>
+          <a class="dd-link" onclick="selectSub('home','cleaning',event)"><i class="ti ti-mop"></i>جارو و خاک‌انداز</a>
+          <a class="dd-link" onclick="selectSub('home','deco',event)"><i class="ti ti-plant"></i>گلدان و دکور</a>
+          <a class="dd-link" onclick="selectSub('home','kitchen',event)"><i class="ti ti-tools-kitchen-2"></i>ظروف آشپزخانه</a>
+        </div>
+      </div>
+    </button>
+
+    <button class="nav-item" id="nav-clothing" onclick="selectCat('clothing',this)">
+      <i class="ti ti-shirt" aria-hidden="true"></i> پوشاک و البسه
+      <i class="ti ti-chevron-down arrow" aria-hidden="true"></i>
+      <div class="dropdown" role="menu">
+        <div class="dd-section">
+          <div class="dd-title">مردانه</div>
+          <a class="dd-link" onclick="selectSub('clothing','men',event)"><i class="ti ti-shirt"></i>پیراهن و تی‌شرت</a>
+          <a class="dd-link" onclick="selectSub('clothing','men',event)"><i class="ti ti-zoom-pan"></i>شلوار و جین</a>
+          <a class="dd-link" onclick="selectSub('clothing','men',event)"><i class="ti ti-briefcase"></i>کت و کت‌وشلوار</a>
+          <a class="dd-link" onclick="selectSub('clothing','men',event)"><i class="ti ti-wind"></i>پالتو و بارانی</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">زنانه</div>
+          <a class="dd-link" onclick="selectSub('clothing','women',event)"><i class="ti ti-dress-circle"></i>مانتو و کت</a>
+          <a class="dd-link" onclick="selectSub('clothing','women',event)"><i class="ti ti-shirt-sport"></i>شومیز و بلوز</a>
+          <a class="dd-link" onclick="selectSub('clothing','women',event)"><i class="ti ti-hanger"></i>شلوار و دامن</a>
+          <a class="dd-link" onclick="selectSub('clothing','women',event)"><i class="ti ti-scarf"></i>شال و روسری</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">کفش و کیف</div>
+          <a class="dd-link" onclick="selectSub('clothing','shoes',event)"><i class="ti ti-shoe"></i>کفش مردانه</a>
+          <a class="dd-link" onclick="selectSub('clothing','shoes',event)"><i class="ti ti-shoe"></i>کفش زنانه</a>
+          <a class="dd-link" onclick="selectSub('clothing','shoes',event)"><i class="ti ti-run"></i>کتانی ورزشی</a>
+          <a class="dd-link" onclick="selectSub('clothing','bag',event)"><i class="ti ti-backpack"></i>کیف و کوله</a>
+        </div>
+      </div>
+    </button>
+
+    <button class="nav-item" id="nav-food" onclick="selectCat('food',this)">
+      <i class="ti ti-salad" aria-hidden="true"></i> مواد غذایی
+      <i class="ti ti-chevron-down arrow" aria-hidden="true"></i>
+      <div class="dropdown" role="menu">
+        <div class="dd-section">
+          <div class="dd-title">مواد اولیه</div>
+          <a class="dd-link" onclick="selectSub('food','grain',event)"><i class="ti ti-grain"></i>برنج و حبوبات</a>
+          <a class="dd-link" onclick="selectSub('food','grain',event)"><i class="ti ti-droplet-half-2"></i>روغن و چربی</a>
+          <a class="dd-link" onclick="selectSub('food','grain',event)"><i class="ti ti-salt"></i>ادویه و چاشنی</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">لبنیات و پروتئین</div>
+          <a class="dd-link" onclick="selectSub('food','dairy',event)"><i class="ti ti-milk"></i>لبنیات</a>
+          <a class="dd-link" onclick="selectSub('food','dairy',event)"><i class="ti ti-fish"></i>گوشت و مرغ</a>
+          <a class="dd-link" onclick="selectSub('food','dairy',event)"><i class="ti ti-egg"></i>تخم‌مرغ</a>
+        </div>
+        <div class="dd-section">
+          <div class="dd-title">تنقلات و نوشیدنی</div>
+          <a class="dd-link" onclick="selectSub('food','snack',event)"><i class="ti ti-cookie"></i>شیرینی و شکلات</a>
+          <a class="dd-link" onclick="selectSub('food','snack',event)"><i class="ti ti-bottle"></i>نوشیدنی</a>
+          <a class="dd-link" onclick="selectSub('food','snack',event)"><i class="ti ti-seeding"></i>خشکبار و مغزیجات</a>
+        </div>
+      </div>
+    </button>
+
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     VIEWS
+═══════════════════════════════════════════ -->
+
+<!-- ── SHOP VIEW ── -->
+<div id="view-shop" class="active" role="main">
+<div class="main-wrap">
+
+  <!-- Hero -->
+  <section class="hero" aria-label="بنر اصلی فروشگاه">
+    <div class="hero-content">
+      <div class="hero-tag">
+        <i class="ti ti-sparkles" aria-hidden="true"></i>
+        فروشگاه جامع ilyacompany
+      </div>
+      <h1 class="hero-h1" itemprop="description">
+        هر چیزی که نیاز داری،<br>
+        <em>اینجا پیدا می‌کنی</em>
+      </h1>
+      <p class="hero-p">از بزرگ‌ترین تجهیزات صنعتی تا ساده‌ترین اقلام روزمره — با بهترین قیمت و ارسال سریع به سراسر کشور</p>
+      <div class="hero-btns">
+        <button class="btn-gold" onclick="selectCat('all',null)">
+          <i class="ti ti-shopping-bag" aria-hidden="true"></i>
+          مشاهده همه کالاها
+        </button>
+        <button class="btn-outline" onclick="goAdmin()">
+          <i class="ti ti-shield-check" aria-hidden="true"></i>
+          پنل مدیریت
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="hs-n">۵۰۰۰+</div><div class="hs-l">کالا</div></div>
+        <div class="hero-stat"><div class="hs-n">۵</div><div class="hs-l">دسته اصلی</div></div>
+        <div class="hero-stat"><div class="hs-n">۲۴/۷</div><div class="hs-l">پشتیبانی</div></div>
+        <div class="hero-stat"><div class="hs-n">۴.۸★</div><div class="hs-l">رضایت مشتری</div></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">🏪</div>
+  </section>
+
+  <!-- Trust bar -->
+  <div class="trust-bar" role="complementary" aria-label="امکانات فروشگاه">
+    <div class="tb-item">
+      <div class="tb-icon"><i class="ti ti-truck-delivery" aria-hidden="true"></i></div>
+      <div class="tb-text"><strong>ارسال سریع</strong><span>به سراسر ایران</span></div>
+    </div>
+    <div class="tb-item">
+      <div class="tb-icon"><i class="ti ti-shield-check" aria-hidden="true"></i></div>
+      <div class="tb-text"><strong>ضمانت اصالت</strong><span>تضمین کیفیت کالا</span></div>
+    </div>
+    <div class="tb-item">
+      <div class="tb-icon"><i class="ti ti-arrow-back" aria-hidden="true"></i></div>
+      <div class="tb-text"><strong>مرجوعی ۷ روزه</strong><span>بدون دردسر</span></div>
+    </div>
+    <div class="tb-item">
+      <div class="tb-icon"><i class="ti ti-headset" aria-hidden="true"></i></div>
+      <div class="tb-text"><strong>پشتیبانی ۲۴/۷</strong><span>همیشه در دسترس</span></div>
+    </div>
+  </div>
+
+  <!-- Cat cards -->
+  <section aria-labelledby="cat-section-title">
+    <div class="sec-title">
+      <div class="st-left">
+        <div class="st-bar"></div>
+        <div>
+          <div class="st-text" id="cat-section-title">دسته‌بندی‌های اصلی</div>
+          <div class="st-sub">انتخاب کنید و کالای خود را بیابید</div>
+        </div>
+      </div>
+    </div>
+    <div class="cat-grid" id="cat-grid">
+      <div class="cat-card" onclick="selectCat('industrial',null)" id="cc-industrial">
+        <span class="cc-icon">🏭</span>
+        <div class="cc-name">ابزار و لوازم صنعتی</div>
+        <div class="cc-count">۱۲۰۰+ کالا</div>
+      </div>
+      <div class="cat-card" onclick="selectCat('construction',null)" id="cc-construction">
+        <span class="cc-icon">🧱</span>
+        <div class="cc-name">ابزار و مصالح ساختمانی</div>
+        <div class="cc-count">۸۰۰+ کالا</div>
+      </div>
+      <div class="cat-card" onclick="selectCat('home',null)" id="cc-home">
+        <span class="cc-icon">🏠</span>
+        <div class="cc-name">لوازم خانگی و منزل</div>
+        <div class="cc-count">۱۵۰۰+ کالا</div>
+      </div>
+      <div class="cat-card" onclick="selectCat('clothing',null)" id="cc-clothing">
+        <span class="cc-icon">👗</span>
+        <div class="cc-name">پوشاک و البسه</div>
+        <div class="cc-count">۹۰۰+ کالا</div>
+      </div>
+      <div class="cat-card" onclick="selectCat('food',null)" id="cc-food">
+        <span class="cc-icon">🛒</span>
+        <div class="cc-name">مواد اولیه و غذایی</div>
+        <div class="cc-count">۶۰۰+ کالا</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two col layout -->
+  <div class="two-col" style="margin-top:1.5rem">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" aria-label="فیلتر و دسته‌بندی">
+      <div class="sidebar-card">
+        <div class="sc-head"><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> دسته‌بندی</div>
+        <div class="sc-body" id="sidebar-cats"></div>
+      </div>
+      <div class="sidebar-card">
+        <div class="sc-head"><i class="ti ti-filter" aria-hidden="true"></i> فیلتر قیمت</div>
+        <div class="sc-body" style="padding:0.75rem">
+          <div style="display:flex;gap:6px;margin-bottom:8px">
+            <input type="number" class="form-input" placeholder="از (تومان)" id="price-min" style="font-size:12px;padding:6px 8px">
+            <input type="number" class="form-input" placeholder="تا (تومان)" id="price-max" style="font-size:12px;padding:6px 8px">
+          </div>
+          <button onclick="applyPriceFilter()" style="width:100%;padding:7px;background:var(--navy);color:var(--gold);border:none;border-radius:var(--radius-sm);font-size:12px;cursor:pointer">اعمال فیلتر</button>
+        </div>
+      </div>
+      <div class="sidebar-card">
+        <div class="sc-head"><i class="ti ti-star" aria-hidden="true"></i> امتیاز</div>
+        <div class="sc-body" style="padding:0.5rem">
+          <div class="sc-cat" onclick="filterRating(4)">
+            <span style="color:var(--gold);font-size:13px">★★★★</span>+ و بالاتر
+          </div>
+          <div class="sc-cat" onclick="filterRating(3)">
+            <span style="color:var(--gold);font-size:13px">★★★</span>+ و بالاتر
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Products -->
+    <div class="content">
+      <div class="filter-bar" role="toolbar" aria-label="مرتب‌سازی">
+        <span class="fb-label">مرتب‌سازی:</span>
+        <button class="sort-btn active" id="sort-default" onclick="sortProducts('default',this)">پیش‌فرض</button>
+        <button class="sort-btn" id="sort-price-asc" onclick="sortProducts('price-asc',this)">ارزان‌ترین</button>
+        <button class="sort-btn" id="sort-price-desc" onclick="sortProducts('price-desc',this)">گران‌ترین</button>
+        <button class="sort-btn" id="sort-newest" onclick="sortProducts('newest',this)">جدیدترین</button>
+        <button class="sort-btn" id="sort-popular" onclick="sortProducts('popular',this)">پرفروش‌ترین</button>
+        <div class="fb-sep"></div>
+        <span class="results-count" id="results-count">۰ کالا</span>
+        <div class="view-btns">
+          <button class="vbtn active" id="v-grid" onclick="setView('grid',this)" aria-label="نمایش شبکه‌ای"><i class="ti ti-layout-grid" aria-hidden="true"></i></button>
+          <button class="vbtn" id="v-list" onclick="setView('list',this)" aria-label="نمایش لیستی"><i class="ti ti-list" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <div class="product-grid" id="product-grid" aria-label="لیست کالاها"></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ── PAYMENT VIEW ── -->
+<div id="view-payment">
+<div style="max-width:520px;margin:2rem auto;padding:0 1rem">
+  <div class="pay-card">
+    <div class="pay-header">
+      <div class="pay-logo-row">
+        <div class="pay-bank-logo">🏦</div>
+        <div>
+          <div class="pay-bank-name">درگاه پرداخت ilyacompany</div>
+          <div class="pay-subtitle">اتصال امن به بانک ملت</div>
+        </div>
+      </div>
+    </div>
+    <div class="pay-body">
+      <div class="pay-info-box">
+        <div class="pib-row"><span class="pib-label">کالا</span><span class="pib-val" id="pi-product">—</span></div>
+        <div class="pib-row"><span class="pib-label">تعداد</span><span class="pib-val" id="pi-qty">—</span></div>
+        <div class="pib-row"><span class="pib-label">خریدار</span><span class="pib-val" id="pi-buyer">—</span></div>
+        <div class="pib-row"><span class="pib-label">شماره کارت شرکت</span><span class="pib-val" style="direction:ltr;letter-spacing:2px">6104-3378-9921-1234</span></div>
+        <div class="pib-row total"><span class="pib-label">مبلغ قابل پرداخت</span><span class="pib-val" id="pi-total">—</span></div>
+      </div>
+      <div class="card-input">
+        <div class="card-number">6104 — 3378 — 9921 — 1234</div>
+        <div class="card-sub">بانک ملت · شرکت ilyacompany</div>
+      </div>
+      <button class="pay-confirm" onclick="confirmPayment()">
+        <i class="ti ti-lock" aria-hidden="true"></i>
+        پرداخت امن — تأیید سفارش
+      </button>
+      <button class="pay-back" onclick="showView('shop')">
+        <i class="ti ti-arrow-right" aria-hidden="true"></i>
+        بازگشت
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ── SUCCESS VIEW ── -->
+<div id="view-success">
+<div style="max-width:440px;margin:2rem auto;padding:0 1rem">
+  <div class="success-card">
+    <div class="success-anim"><i class="ti ti-check" aria-hidden="true"></i></div>
+    <h2 class="success-h">سفارش شما ثبت شد!</h2>
+    <p class="success-p">پس از بررسی پرداخت، کالا در اسرع وقت به آدرس شما ارسال خواهد شد.<br>کد پیگیری سفارش:</p>
+    <div class="order-code" id="success-code">#IC-00000</div>
+    <div class="order-summary-box" id="order-summary"></div>
+    <button class="btn-home" onclick="showView('shop')">
+      <i class="ti ti-home" aria-hidden="true"></i>
+      بازگشت به فروشگاه
+    </button>
+  </div>
+</div>
+</div>
+
+<!-- ── ADMIN VIEW ── -->
+<div id="view-admin">
+  <!-- Login -->
+  <div style="max-width:380px;margin:3rem auto;padding:0 1rem" id="admin-login-wrap">
+    <div class="alp-card">
+      <div class="alp-header">
+        <div class="alp-icon"><i class="ti ti-shield-check" aria-hidden="true"></i></div>
+        <div class="alp-title">ورود مدیریت</div>
+        <div class="alp-sub">ilyacompany Admin Panel</div>
+      </div>
+      <div style="padding:1.5rem">
+        <div class="alp-err" id="alp-err">نام کاربری یا رمز اشتباه است</div>
+        <div class="form-group" style="margin-bottom:0.75rem">
+          <label class="form-label" for="al-user">نام کاربری</label>
+          <input class="form-input" id="al-user" type="text" placeholder="admin">
+        </div>
+        <div class="form-group" style="margin-bottom:1rem">
+          <label class="form-label" for="al-pass">رمز عبور</label>
+          <input class="form-input" id="al-pass" type="password" placeholder="••••" onkeydown="if(event.key==='Enter')adminLogin()">
+        </div>
+        <button class="btn-gold" style="width:100%;justify-content:center" onclick="adminLogin()">
+          <i class="ti ti-login" aria-hidden="true"></i>
+          ورود به پنل
+        </button>
+        <p style="font-size:11px;color:var(--text3);text-align:center;margin-top:0.75rem">رمز آزمایشی: admin / 1234</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="admin-wrap" id="admin-dash" style="display:none">
+    <div class="dash-header">
+      <div>
+        <div class="dash-title">پنل مدیریت سفارشات</div>
+        <div style="font-size:12px;color:var(--text3)">ilyacompany · نسخه ۱.۰</div>
+      </div>
+      <div style="display:flex;gap:0.5rem;align-items:center">
+        <span style="font-size:12px;background:#DBEAFE;color:#1D4ED8;padding:4px 12px;border-radius:20px" id="new-orders-badge">۰ سفارش جدید</span>
+        <button class="admin-logout" onclick="adminLogout()"><i class="ti ti-logout" aria-hidden="true"></i>خروج</button>
+      </div>
+    </div>
+
+    <div class="dash-stats" id="dash-stats">
+      <div class="ds-card">
+        <div class="ds-icon" style="background:#EFF6FF"><i class="ti ti-package" style="color:#3B82F6" aria-hidden="true"></i></div>
+        <div class="ds-n" id="ds-total">0</div><div class="ds-l">کل سفارشات</div>
+      </div>
+      <div class="ds-card">
+        <div class="ds-icon" style="background:#FEF3C7"><i class="ti ti-clock" style="color:#F59E0B" aria-hidden="true"></i></div>
+        <div class="ds-n" id="ds-new">0</div><div class="ds-l">سفارشات جدید</div>
+      </div>
+      <div class="ds-card">
+        <div class="ds-icon" style="background:#D1FAE5"><i class="ti ti-currency-dollar" style="color:#10B981" aria-hidden="true"></i></div>
+        <div class="ds-n" id="ds-revenue">0</div><div class="ds-l">درآمد (تومان)</div>
+      </div>
+      <div class="ds-card">
+        <div class="ds-icon" style="background:#FEE2E2"><i class="ti ti-shopping-bag" style="color:#EF4444" aria-hidden="true"></i></div>
+        <div class="ds-n" id="ds-items">0</div><div class="ds-l">کالاهای فروخته‌شده</div>
+      </div>
+    </div>
+
+    <div class="orders-table">
+      <div class="ot-header">
+        <div class="ot-title">لیست سفارشات</div>
+        <div class="ot-actions">
+          <button class="ot-filter active" onclick="filterOrders('all',this)">همه</button>
+          <button class="ot-filter" onclick="filterOrders('new',this)">جدید</button>
+          <button class="ot-filter" onclick="filterOrders('processing',this)">در پردازش</button>
+          <button class="ot-filter" onclick="filterOrders('done',this)">تحویل داده شد</button>
+        </div>
+      </div>
+      <div id="orders-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     PRODUCT DETAIL MODAL
+═══════════════════════════════════════════ -->
+<div class="modal-bg" id="modal-bg" role="dialog" aria-modal="true" aria-labelledby="modal-title-el" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal-title-el">جزئیات کالا</h2>
+      <button class="modal-close" onclick="closeModal()" aria-label="بستن">
+        <i class="ti ti-x" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-top">
+        <div>
+          <div class="modal-gallery" id="modal-gallery" aria-label="تصویر کالا">
+            <span id="modal-emoji" style="font-size:100px">📦</span>
+          </div>
+          <div class="gallery-thumbs" id="gallery-thumbs"></div>
+          <div class="upload-zone" onclick="triggerUpload()" role="button" tabindex="0"
+            aria-label="بارگذاری تصویر یا کلیپ" onkeydown="if(event.key==='Enter')triggerUpload()">
+            <i class="ti ti-cloud-upload" aria-hidden="true"></i>
+            <p>تصویر یا کلیپ بارگذاری کنید</p>
+            <p style="font-size:11px;color:var(--text3);margin-top:2px">JPG، PNG، MP4 پشتیبانی می‌شود</p>
+          </div>
+          <input type="file" id="file-input" accept="image/*,video/*" multiple style="display:none" onchange="handleFiles(event)">
+          <div class="upload-btns-row">
+            <label class="ubtn" style="cursor:pointer">
+              <i class="ti ti-photo" aria-hidden="true"></i> تصویر
+              <input type="file" accept="image/*" multiple style="display:none" onchange="handleFiles(event)">
+            </label>
+            <label class="ubtn" style="cursor:pointer">
+              <i class="ti ti-video" aria-hidden="true"></i> کلیپ ویدیو
+              <input type="file" accept="video/*" style="display:none" onchange="handleFiles(event)">
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-info">
+          <div class="mi-cat" id="modal-cat"><i class="ti ti-tag" aria-hidden="true"></i> <span></span></div>
+          <h3 class="mi-name" id="modal-name">نام کالا</h3>
+          <div class="mi-brand" id="modal-brand">برند</div>
+          <div class="mi-rating">
+            <div class="stars" id="modal-stars">★★★★★</div>
+            <span style="font-size:12px;color:var(--text3)" id="modal-reviews">(۰ نظر)</span>
+          </div>
+          <div class="mi-desc" id="modal-desc">توضیحات کالا</div>
+          <div class="mi-price-box">
+            <div class="mi-old" id="modal-old-price"></div>
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="mi-price" id="modal-price">0 تومان</span>
+              <span class="mi-discount-tag" id="modal-discount" style="display:none"></span>
+            </div>
+          </div>
+          <div class="specs-grid" id="modal-specs"></div>
+        </div>
+      </div>
+
+      <div class="order-section">
+        <div class="os-title"><i class="ti ti-clipboard-list" aria-hidden="true"></i> ثبت سفارش</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="of-name">نام و نام‌خانوادگی *</label>
+            <input class="form-input" id="of-name" type="text" placeholder="نام کامل">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="of-phone">شماره موبایل *</label>
+            <input class="form-input" id="of-phone" type="tel" placeholder="09XXXXXXXXX">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="of-city">استان و شهر *</label>
+            <input class="form-input" id="of-city" type="text" placeholder="تهران — شهر ری">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="of-postal">کد پستی</label>
+            <input class="form-input" id="of-postal" type="text" placeholder="۱۰۰۰۰۰۰۰۰۰">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label class="form-label" for="of-addr">آدرس دقیق *</label>
+            <textarea class="form-input" id="of-addr" placeholder="خیابان، کوچه، پلاک، واحد..."></textarea>
+          </div>
+        </div>
+        <div class="qty-row">
+          <span class="qty-label">تعداد:</span>
+          <div class="qty-ctrl">
+            <button class="qbtn" onclick="changeQty(-1)" aria-label="کاهش تعداد">−</button>
+            <input class="qval" id="qty-val" type="number" value="1" min="1" onchange="updateTotal()">
+            <button class="qbtn" onclick="changeQty(1)" aria-label="افزایش تعداد">+</button>
+          </div>
+          <span style="font-size:12px;color:var(--text3);margin-right:0.5rem" id="stock-info">موجود در انبار</span>
+        </div>
+        <div class="total-row">
+          <span class="tr-label">مبلغ کل:</span>
+          <span class="tr-price" id="order-total-price">0 تومان</span>
+        </div>
+        <button class="pay-btn" onclick="goToPayment()" aria-label="پرداخت">
+          <i class="ti ti-credit-card" aria-hidden="true"></i>
+          ادامه و رفتن به درگاه پرداخت
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-main">ilya<span style="color:var(--gold)">company</span></div>
+        <p>بزرگ‌ترین فروشگاه آنلاین با بیش از ۵۰۰۰ کالا در ۵ دسته اصلی. ارسال سریع، قیمت مناسب، خدمات پس از فروش حرفه‌ای.</p>
+        <div style="display:flex;gap:8px">
+          <button style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,0.08);border:none;color:#94A3B8;font-size:16px;cursor:pointer" onclick="showToast('اینستاگرام')">📸</button>
+          <button style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,0.08);border:none;color:#94A3B8;font-size:16px;cursor:pointer" onclick="showToast('تلگرام')">📱</button>
+          <button style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,0.08);border:none;color:#94A3B8;font-size:16px;cursor:pointer" onclick="showToast('واتس‌اپ')">💬</button>
+        </div>
+      </div>
+      <div>
+        <div class="footer-h">دسته‌بندی‌ها</div>
+        <div class="footer-links">
+          <a onclick="selectCat('industrial',null)">ابزار صنعتی</a>
+          <a onclick="selectCat('construction',null)">مصالح ساختمانی</a>
+          <a onclick="selectCat('home',null)">لوازم خانگی</a>
+          <a onclick="selectCat('clothing',null)">پوشاک و البسه</a>
+          <a onclick="selectCat('food',null)">مواد غذایی</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-h">خدمات مشتریان</div>
+        <div class="footer-links">
+          <a href="#">نحوه خرید</a>
+          <a href="#">روش‌های پرداخت</a>
+          <a href="#">پیگیری سفارش</a>
+          <a href="#">مرجوعی کالا</a>
+          <a href="#">تماس با ما</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-h">تماس با ما</div>
+        <div class="footer-links">
+          <a href="tel:02112345678">📞 ۰۲۱-۱۲۳۴-۵۶۷۸</a>
+          <a href="mailto:info@ilyacompany.ir">📧 info@ilyacompany.ir</a>
+          <a href="#">📍 تهران، خیابان ولیعصر</a>
+          <a href="#">⏰ شنبه تا چهارشنبه ۹–۱۸</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© ۱۴۰۳ ilyacompany — تمامی حقوق محفوظ است</span>
+      <span>طراحی و توسعه با ❤️</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════ -->
+<script>
+const PRODUCTS = [
+  // ── INDUSTRIAL ──
+  {id:101,cat:'industrial',sub:'electric',name:'موتور الکتریکی سه‌فاز ۷.۵ کیلووات',brand:'الکتروموتور پارس',icon:'⚡',price:18500000,oldPrice:22000000,badge:'off',rating:4.7,reviews:34,stock:15,
+   desc:'موتور الکتریکی سه‌فاز با توان ۷.۵ کیلووات، رده حفاظتی IP55، کلاس عایق F، مناسب پمپ‌های صنعتی.',
+   specs:[{l:'توان',v:'7.5 kW'},{l:'ولتاژ',v:'380V سه‌فاز'},{l:'RPM',v:'1450'},{l:'حفاظت',v:'IP55'}],
+   isNew:false,isPopular:true},
+  {id:102,cat:'industrial',sub:'mechanic',name:'دریل‌فرز صنعتی ۱۳ میلی‌متر',brand:'بوش',icon:'🔩',price:4200000,oldPrice:null,badge:'best',rating:4.9,reviews:87,stock:23,
+   desc:'دریل‌فرز حرفه‌ای بوش با چاک ۱۳mm، موتور ۱۱۰۰ وات، معکوس‌گردان، مناسب مته‌زنی فلز، بتن و چوب.',
+   specs:[{l:'توان',v:'1100 وات'},{l:'چاک',v:'13 میلی‌متر'},{l:'دور',v:'0-3000 rpm'},{l:'وزن',v:'3.2 کیلو'}],
+   isNew:false,isPopular:true},
+  {id:103,cat:'industrial',sub:'safety',name:'کلاه ایمنی صنعتی ABS',brand:'سیف‌گارد',icon:'⛑️',price:185000,oldPrice:240000,badge:'off',rating:4.5,reviews:56,stock:200,
+   desc:'کلاه ایمنی ضربه‌گیر استاندارد EN397، جنس ABS، تنظیم‌پذیر، مناسب تمام محیط‌های صنعتی.',
+   specs:[{l:'جنس',v:'ABS'},{l:'استاندارد',v:'EN 397'},{l:'وزن',v:'350 گرم'},{l:'رنگ‌ها',v:'6 رنگ'}],
+   isNew:false,isPopular:false},
+  {id:104,cat:'industrial',sub:'wood',name:'اره دیسکی ۱۸۵mm چوب‌بری',brand:'ماکیتا',icon:'🪚',price:5800000,oldPrice:7200000,badge:'off',rating:4.8,reviews:41,stock:8,
+   desc:'اره دیسکی مدل HS6601 ماکیتا با تیغه ۱۸۵mm، موتور ۱۱۵۰ وات، عمق برش تا ۶۶mm، سیستم جمع‌آوری گرد.',
+   specs:[{l:'تیغه',v:'185 میلی‌متر'},{l:'توان',v:'1150 وات'},{l:'عمق برش',v:'66 میلی‌متر'},{l:'وزن',v:'4.2 کیلو'}],
+   isNew:false,isPopular:false},
+
+  // ── CONSTRUCTION ──
+  {id:201,cat:'construction',sub:'cement',name:'سیمان پرتلند تیپ ۲ (50 کیلو)',brand:'سیمان تهران',icon:'🧱',price:145000,oldPrice:null,badge:'best',rating:4.6,reviews:120,stock:500,
+   desc:'سیمان پرتلند تیپ ۲ مقاوم در برابر سولفات، مناسب ساختمان‌سازی، پل‌سازی و مناطق مرطوب.',
+   specs:[{l:'نوع',v:'پرتلند تیپ 2'},{l:'مقاومت',v:'۴۲.۵ مگاپاسکال'},{l:'وزن',v:'50 کیلو'},{l:'مصرف',v:'350 کیلو/m³'}],
+   isNew:false,isPopular:true},
+  {id:202,cat:'construction',sub:'tile',name:'کاشی دیوار مات سفید ۶۰×۳۰',brand:'کاشی ایران',icon:'⬜',price:380000,oldPrice:450000,badge:'off',rating:4.4,reviews:67,stock:300,
+   desc:'کاشی دیوار مات سفید ابعاد ۳۰×۶۰ سانتی‌متر، درجه یک، مناسب سرویس بهداشتی و آشپزخانه.',
+   specs:[{l:'ابعاد',v:'30×60 سانتی‌متر'},{l:'نوع',v:'مات'},{l:'درجه',v:'یک'},{l:'قیمت',v:'هر کارتن (۱.۰۸ m²)'}],
+   isNew:false,isPopular:false},
+  {id:203,cat:'construction',sub:'pipe',name:'لوله PPR سبز ۲۵ میلی‌متر',brand:'پیپ‌ایران',icon:'🟩',price:95000,oldPrice:null,badge:'new',rating:4.5,reviews:38,stock:400,
+   desc:'لوله آب‌رسانی PPR سبز فشار PN20 قطر ۲۵ میلی‌متر، مقاوم در برابر حرارت و فشار، طول ۴ متر.',
+   specs:[{l:'قطر',v:'25 میلی‌متر'},{l:'فشار',v:'PN20'},{l:'طول',v:'4 متر'},{l:'جنس',v:'پلی‌پروپیلن'}],
+   isNew:true,isPopular:false},
+  {id:204,cat:'construction',sub:'paint',name:'رنگ دیوار داخلی سفید ۲۰ کیلو',brand:'رنگ ایران',icon:'🪣',price:780000,oldPrice:920000,badge:'off',rating:4.7,reviews:93,stock:80,
+   desc:'رنگ پلاستیک سفید پریمیوم با پوشش فوق‌العاده، قابل شستشو، ضدقارچ، برای دیوارهای داخلی.',
+   specs:[{l:'وزن',v:'20 کیلو'},{l:'پوشش',v:'تا 100 m²'},{l:'پایه',v:'آب'},{l:'خشک‌شدن',v:'2 ساعت'}],
+   isNew:false,isPopular:false},
+
+  // ── HOME ──
+  {id:301,cat:'home',sub:'major',name:'یخچال فریزر پایین ۴۸۰ لیتر',brand:'ایران‌شرق',icon:'🧊',price:24500000,oldPrice:28000000,badge:'off',rating:4.6,reviews:210,stock:12,
+   desc:'یخچال فریزر پایین ۴۸۰ لیتر با تکنولوژی NoFrost، کلاس انرژی A++، پانل لمسی و نمایشگر دیجیتال.',
+   specs:[{l:'ظرفیت',v:'480 لیتر'},{l:'انرژی',v:'A++'},{l:'فناوری',v:'NoFrost'},{l:'صدا',v:'40 دسیبل'}],
+   isNew:false,isPopular:true},
+  {id:302,cat:'home',sub:'major',name:'ماشین لباسشویی ۸ کیلو ۱۴۰۰ دور',brand:'آبسال',icon:'🫧',price:9200000,oldPrice:null,badge:'new',rating:4.8,reviews:156,stock:20,
+   desc:'ماشین لباسشویی اتوماتیک ۸ کیلو، ۱۴۰۰ دور، ۱۶ برنامه، سیستم بخار Vapor Refresh، نمایشگر دیجیتال.',
+   specs:[{l:'ظرفیت',v:'8 کیلو'},{l:'دور',v:'1400 rpm'},{l:'برنامه',v:'16 برنامه'},{l:'گارانتی',v:'2 سال'}],
+   isNew:true,isPopular:true},
+  {id:303,cat:'home',sub:'cleaning',name:'جارو دستی ۱۵۰ سانت',brand:'پاک‌ستاره',icon:'🧹',price:85000,oldPrice:null,badge:'hot',rating:4.3,reviews:445,stock:500,
+   desc:'جارو اقتصادی ارگونومیک با موهای طبیعی و مصنوعی ترکیبی، دسته ۱۳۰ سانتی‌متر قابل تنظیم.',
+   specs:[{l:'طول دسته',v:'130 سانتی‌متر'},{l:'جنس مو',v:'ترکیبی'},{l:'وزن',v:'280 گرم'},{l:'کاربرد',v:'داخل/خارج'}],
+   isNew:false,isPopular:true},
+  {id:304,cat:'home',sub:'cleaning',name:'ست جارو و خاک‌انداز',brand:'پاک‌ستاره',icon:'🪣',price:55000,oldPrice:70000,badge:'off',rating:4.2,reviews:380,stock:800,
+   desc:'ست کامل جارو و خاک‌انداز پلاستیک PP، طرح مدرن و ارگونومیک، مناسب آشپزخانه و سرویس بهداشتی.',
+   specs:[{l:'جنس',v:'پلاستیک PP'},{l:'رنگ',v:'سفید/خاکستری'},{l:'ست',v:'2 تکه'},{l:'وزن',v:'180 گرم'}],
+   isNew:false,isPopular:false},
+  {id:305,cat:'home',sub:'deco',name:'گلدان سرامیکی مینیمال',brand:'آرت‌هوم',icon:'🪴',price:165000,oldPrice:null,badge:'new',rating:4.6,reviews:78,stock:120,
+   desc:'گلدان سرامیکی لعاب‌کاری دست‌ساز، طراحی مینیمال اسکاندیناوی، مناسب گیاهان رومیزی کوچک.',
+   specs:[{l:'جنس',v:'سرامیک دست‌ساز'},{l:'ابعاد',v:'15×12 سانتی‌متر'},{l:'رنگ',v:'سفید، بژ، سبز'},{l:'مراقبت',v:'ضدرطوبت'}],
+   isNew:true,isPopular:false},
+  {id:306,cat:'home',sub:'small',name:'توستر ۲ اسلاته دیجیتال',brand:'بوش',icon:'🍞',price:1250000,oldPrice:1500000,badge:'off',rating:4.5,reviews:134,stock:45,
+   desc:'توستر دیجیتال ۲ اسلاته با ۷ سطح برشته‌کاری، عملکرد یخ‌زدایی، گرم‌کردن مجدد و نگهدارنده نان.',
+   specs:[{l:'توان',v:'900 وات'},{l:'سطح برشته‌کاری',v:'7 سطح'},{l:'اسلات',v:'2 عدد'},{l:'رنگ',v:'نقره‌ای/مشکی'}],
+   isNew:false,isPopular:false},
+
+  // ── CLOTHING ──
+  {id:401,cat:'clothing',sub:'men',name:'پیراهن لینن مردانه',brand:'ilyacompany',icon:'👔',price:420000,oldPrice:null,badge:'new',rating:4.4,reviews:67,stock:200,
+   desc:'پیراهن آستین بلند از جنس لینن طبیعی ۱۰۰٪، تنفس‌پذیر، مناسب فصل گرم و محیط کار و تفریح.',
+   specs:[{l:'جنس',v:'لینن 100%'},{l:'سایز',v:'S تا XXL'},{l:'رنگ',v:'6 رنگ'},{l:'شستشو',v:'ماشینی ۳۰°'}],
+   isNew:true,isPopular:false},
+  {id:402,cat:'clothing',sub:'women',name:'مانتو کشمیر زنانه',brand:'ilyacompany',icon:'🧥',price:750000,oldPrice:890000,badge:'off',rating:4.7,reviews:112,stock:150,
+   desc:'مانتو کلاسیک از پارچه کشمیر مصنوعی با پوشش ضدآب، دکمه‌های لنگری، مناسب فصل پاییز و زمستان.',
+   specs:[{l:'جنس',v:'کشمیر مصنوعی'},{l:'سایز',v:'36 تا 52'},{l:'رنگ',v:'4 رنگ'},{l:'فصل',v:'پاییز/زمستان'}],
+   isNew:false,isPopular:true},
+  {id:403,cat:'clothing',sub:'shoes',name:'کتانی رانینگ سبک مردانه',brand:'نایک',icon:'👟',price:1890000,oldPrice:2200000,badge:'off',rating:4.8,reviews:234,stock:80,
+   desc:'کفش دویدن Nike با رویه مش تنفس‌پذیر، کف React Foam، مناسب دویدن روزانه تا ماراتن.',
+   specs:[{l:'سایز',v:'36 تا 46'},{l:'وزن',v:'240 گرم'},{l:'رویه',v:'مش هوادهی'},{l:'کف',v:'React Foam'}],
+   isNew:false,isPopular:true},
+  {id:404,cat:'clothing',sub:'bag',name:'کیف چرم دستی زنانه',brand:'ilyacompany',icon:'👜',price:680000,oldPrice:null,badge:'new',rating:4.6,reviews:89,stock:60,
+   desc:'کیف دستی از چرم طبیعی گاوی، دوخت دستی محکم، لایه‌بندی داخلی متنوع، بند قابل جدا کردن.',
+   specs:[{l:'جنس',v:'چرم طبیعی'},{l:'رنگ',v:'قهوه‌ای، مشکی'},{l:'ابعاد',v:'35×25×12 سانتی‌متر'},{l:'بند',v:'قابل جدا کردن'}],
+   isNew:true,isPopular:false},
+  {id:405,cat:'clothing',sub:'kids',name:'ست بچگانه بامبو ۲ تکه',brand:'بامبو کیدز',icon:'👶',price:350000,oldPrice:null,badge:'hot',rating:4.9,reviews:178,stock:300,
+   desc:'ست تی‌شرت و شلوار بچگانه از پارچه نرم بامبو، ضدحساسیت، ضدعرق، مناسب ۲ تا ۸ سال.',
+   specs:[{l:'جنس',v:'بامبو 95% + لایکرا 5%'},{l:'سن',v:'2 تا 8 سال'},{l:'ست',v:'2 تکه'},{l:'رنگ',v:'5 رنگ'}],
+   isNew:false,isPopular:true},
+
+  // ── FOOD ──
+  {id:501,cat:'food',sub:'grain',name:'برنج طارم هاشمی درجه یک ۱۰ کیلو',brand:'گلستان',icon:'🍚',price:950000,oldPrice:null,badge:'best',rating:4.8,reviews:567,stock:200,
+   desc:'برنج طارم هاشمی اصیل مازندران، درجه یک، دانه‌های بلند و عطری، بسته‌بندی بهداشتی ۱۰ کیلویی.',
+   specs:[{l:'وزن',v:'10 کیلو'},{l:'نوع',v:'طارم هاشمی'},{l:'درجه',v:'یک'},{l:'منشاء',v:'مازندران'}],
+   isNew:false,isPopular:true},
+  {id:502,cat:'food',sub:'dairy',name:'روغن زیتون بکر اول ۱ لیتر',brand:'زیتین',icon:'🫒',price:285000,oldPrice:320000,badge:'off',rating:4.9,reviews:345,stock:150,
+   desc:'روغن زیتون فراوری اول (Extra Virgin) ارگانیک، سردفشاری، اسیدیته زیر ۰.۵٪، بطری شیشه‌ای.',
+   specs:[{l:'حجم',v:'1 لیتر'},{l:'نوع',v:'Extra Virgin'},{l:'اسیدیته',v:'زیر 0.5%'},{l:'بطری',v:'شیشه تیره'}],
+   isNew:false,isPopular:true},
+  {id:503,cat:'food',sub:'snack',name:'خرما مضافتی بم ۱ کیلو',brand:'خرمای بم',icon:'🌴',price:320000,oldPrice:null,badge:'hot',rating:4.7,reviews:289,stock:400,
+   desc:'خرمای مضافتی درجه یک از بم کرمان، رسیده و شیرین، بسته‌بندی بهداشتی اتمسفر تازه.',
+   specs:[{l:'وزن',v:'1 کیلو'},{l:'نوع',v:'مضافتی بم'},{l:'درجه',v:'یک'},{l:'بسته‌بندی',v:'مپ تازه'}],
+   isNew:false,isPopular:true},
+  {id:504,cat:'food',sub:'grain',name:'روغن آفتابگردان ۱.۸ لیتر',brand:'لادن',icon:'🌻',price:195000,oldPrice:230000,badge:'off',rating:4.3,reviews:432,stock:600,
+   desc:'روغن مایع آفتابگردان با ترکیب اُمگا ۶ بالا، مناسب پخت‌وپز سرد و گرم، فاقد ترانس فت.',
+   specs:[{l:'حجم',v:'1.8 لیتر'},{l:'نوع',v:'آفتابگردان'},{l:'ترانس فت',v:'صفر'},{l:'بطری',v:'پلاستیک PET'}],
+   isNew:false,isPopular:false},
+];
+
+let filteredProducts = [...PRODUCTS];
+let activeCat = 'all';
+let activeSort = 'default';
+let orderData = {};
+let orders = [];
+let wishlist = [];
+let qtyVal = 1;
+let currentProduct = null;
+let activeAdminFilter = 'all';
+
+function showView(v) {
+  document.querySelectorAll('[id^="view-"]').forEach(el => el.classList.remove('active'));
+  document.getElementById('view-' + v).classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function showToast(msg, duration=2500) {
+  const t = document.getElementById('toast');
+  document.getElementById('toast-msg').textContent = msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), duration);
+}
+
+function goHome() { showView('shop'); }
+function goAdmin() { showView('admin'); }
+
+function setLang(l) {
+  const msgs = {fa:'زبان فارسی فعال است',ar:'اللغة العربية ستُفعَّل قريبًا',en:'English version coming soon'};
+  showToast(msgs[l]);
+}
+
+function selectCat(cat, navEl) {
+  activeCat = cat;
+  document.querySelectorAll('.nav-item').forEach(el=>el.classList.remove('active'));
+  document.querySelectorAll('.cat-card').forEach(el=>el.classList.remove('active'));
+  if(navEl) navEl.classList.add('active');
+  const cc = document.getElementById('cc-'+cat);
+  if(cc) cc.classList.add('active');
+  renderSidebar();
+  renderProducts();
+  showView('shop');
+  document.querySelector('.two-col')?.scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function selectSub(cat, sub, e) {
+  e.stopPropagation();
+  activeCat = cat;
+  renderSidebar(sub);
+  filteredProducts = PRODUCTS.filter(p=>p.cat===cat && p.sub===sub);
+  renderProductGrid();
+  showView('shop');
+}
+
+function renderSidebar(activeSub=null) {
+  const catMap = {
+    industrial:{name:'ابزار صنعتی',subs:[{id:'electric',name:'برقی و الکترونیکی',icon:'ti-bolt'},{id:'mechanic',name:'مکانیکی',icon:'ti-tool'},{id:'wood',name:'چوب و درودگری',icon:'ti-cut'},{id:'metal',name:'جوشکاری و متالوژی',icon:'ti-flame'},{id:'safety',name:'ایمنی و حفاظتی',icon:'ti-shield'}]},
+    construction:{name:'مصالح ساختمانی',subs:[{id:'cement',name:'سیمان و بتن',icon:'ti-stack'},{id:'tile',name:'کاشی و سرامیک',icon:'ti-border-all'},{id:'pipe',name:'لوله و تأسیسات',icon:'ti-line'},{id:'elect',name:'تأسیسات برق',icon:'ti-bolt'},{id:'paint',name:'رنگ و پوشش',icon:'ti-paint'}]},
+    home:{name:'لوازم خانگی',subs:[{id:'major',name:'لوازم بزرگ',icon:'ti-device-fridge'},{id:'small',name:'لوازم کوچک',icon:'ti-coffee'},{id:'cleaning',name:'نظافت',icon:'ti-vacuum-cleaner'},{id:'deco',name:'دکوراسیون',icon:'ti-plant'},{id:'kitchen',name:'آشپزخانه',icon:'ti-tools-kitchen-2'}]},
+    clothing:{name:'پوشاک',subs:[{id:'men',name:'مردانه',icon:'ti-shirt'},{id:'women',name:'زنانه',icon:'ti-dress-circle'},{id:'shoes',name:'کفش',icon:'ti-shoe'},{id:'bag',name:'کیف',icon:'ti-backpack'},{id:'kids',name:'بچگانه',icon:'ti-baby-carriage'}]},
+    food:{name:'مواد غذایی',subs:[{id:'grain',name:'حبوبات و روغن',icon:'ti-grain'},{id:'dairy',name:'لبنیات و پروتئین',icon:'ti-milk'},{id:'snack',name:'تنقلات و خشکبار',icon:'ti-cookie'}]}
+  };
+  const allCats=[{id:'all',name:'همه کالاها',icon:'ti-layout-grid'},...Object.entries(catMap).map(([id,v])=>({id,name:v.name,icon:'ti-tag',subs:v.subs}))];
+  const sb = document.getElementById('sidebar-cats');
+  sb.innerHTML = allCats.map(c=>{
+    const isActive = activeCat===c.id;
+    const hasSubs = c.subs && c.subs.length;
+    return `
+      <div class="sc-cat ${isActive?'active':''} ${isActive&&hasSubs?'open':''}"
+           onclick="selectCat('${c.id}',null)">
+        <i class="ti ${c.icon}" style="font-size:16px" aria-hidden="true"></i>
+        ${c.name}
+        ${hasSubs?`<i class="ti ti-chevron-left" style="font-size:13px;margin-right:auto;transition:transform 0.2s" aria-hidden="true"></i>`:''}
+      </div>
+      ${hasSubs?`
+      <div class="sub-list" ${isActive?'style="display:block"':''}>
+        ${c.subs.map(s=>`
+          <div class="sub-item ${activeSub===s.id?'active':''}"
+               onclick="event.stopPropagation();selectSub('${c.id}','${s.id}',event)">
+            <i class="ti ${s.icon}" style="font-size:13px" aria-hidden="true"></i>${s.name}
+          </div>`).join('')}
+      </div>`:''}
+    `;
+  }).join('');
+}
+
+function renderProducts() {
+  let list = activeCat==='all' ? [...PRODUCTS] : PRODUCTS.filter(p=>p.cat===activeCat);
+  const q = document.getElementById('search-input').value.trim().toLowerCase();
+  if(q) list = list.filter(p=>p.name.toLowerCase().includes(q)||p.brand.toLowerCase().includes(q));
+  filteredProducts = list;
+  sortList();
+  renderProductGrid();
+}
+
+function sortList() {
+  switch(activeSort){
+    case 'price-asc': filteredProducts.sort((a,b)=>a.price-b.price); break;
+    case 'price-desc': filteredProducts.sort((a,b)=>b.price-a.price); break;
+    case 'newest': filteredProducts.sort((a,b)=>b.isNew-a.isNew); break;
+    case 'popular': filteredProducts.sort((a,b)=>b.reviews-a.reviews); break;
+    default: break;
+  }
+}
+
+function renderProductGrid() {
+  const grid = document.getElementById('product-grid');
+  document.getElementById('results-count').textContent = filteredProducts.length + ' کالا';
+  if(!filteredProducts.length){
+    grid.innerHTML=`<div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text3)">
+      <i class="ti ti-search-off" style="font-size:48px;display:block;margin-bottom:0.75rem" aria-hidden="true"></i>
+      <div style="font-size:15px">کالایی یافت نشد</div>
+    </div>`;return;
+  }
+  grid.innerHTML = filteredProducts.map(p=>{
+    const isWished = wishlist.includes(p.id);
+    const discPct = p.oldPrice ? Math.round((1-p.price/p.oldPrice)*100) : 0;
+    return `
+    <article class="p-card" onclick="openDetail(${p.id})"
+      itemscope itemtype="https://schema.org/Product"
+      aria-label="${p.name}">
+      <div class="p-img-wrap">
+        <span class="p-emoji" aria-hidden="true">${p.icon}</span>
+        <div class="p-badges">
+          ${p.badge==='new'?'<span class="badge b-new">جدید</span>':''}
+          ${p.badge==='off'?`<span class="badge b-off">-${discPct}%</span>`:''}
+          ${p.badge==='hot'?'<span class="badge b-hot">پرفروش</span>':''}
+          ${p.badge==='best'?'<span class="badge b-best">برتر</span>':''}
+        </div>
+        <button class="p-wish ${isWished?'active':''}" onclick="toggleWish(event,${p.id})" aria-label="افزودن به علاقه‌مندی">
+          <i class="ti ${isWished?'ti-heart':'ti-heart'}" aria-hidden="true"></i>
+        </button>
+        <button class="p-quick" onclick="event.stopPropagation();openDetail(${p.id})" aria-label="سفارش سریع">
+          <i class="ti ti-shopping-cart" aria-hidden="true"></i> مشاهده و سفارش
+        </button>
+      </div>
+      <div class="p-body">
+        <div class="p-cat-tag"><i class="ti ti-tag" style="font-size:11px" aria-hidden="true"></i>${getCatName(p.cat)}</div>
+        <div class="p-name" itemprop="name">${p.name}</div>
+        <div class="p-brand" itemprop="brand">${p.brand}</div>
+        <div class="p-rating">
+          <div class="stars" aria-label="امتیاز ${p.rating}">${getStars(p.rating)}</div>
+          <span class="rating-n">${p.rating} (${p.reviews})</span>
+        </div>
+        <div class="p-price-row">
+          <div>
+            ${p.oldPrice?`<div class="p-old">${p.oldPrice.toLocaleString()}</div>`:''}
+            <div class="p-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+              <meta itemprop="price" content="${p.price}">
+              <meta itemprop="priceCurrency" content="IRR">
+              ${p.price.toLocaleString()} تومان
+            </div>
+          </div>
+          <button class="add-btn" onclick="event.stopPropagation();quickOrder(${p.id})" aria-label="افزودن به سبد خرید">
+            <i class="ti ti-plus" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+function getCatName(cat){
+  const n={industrial:'صنعتی',construction:'ساختمانی',home:'خانگی',clothing:'پوشاک',food:'غذایی'};
+  return n[cat]||cat;
+}
+function getStars(r){
+  const f=Math.round(r);
+  return '★'.repeat(f)+'☆'.repeat(5-f);
+}
+
+function toggleWish(e, id) {
+  e.stopPropagation();
+  const i = wishlist.indexOf(id);
+  if(i>-1) wishlist.splice(i,1); else wishlist.push(id);
+  document.getElementById('wish-badge').textContent = wishlist.length;
+  document.getElementById('wish-badge').style.display = wishlist.length?'flex':'none';
+  showToast(i>-1?'از علاقه‌مندی‌ها حذف شد':'به علاقه‌مندی‌ها افزوده شد');
+  renderProductGrid();
+}
+
+function quickOrder(id) {
+  openDetail(id);
+}
+
+function openDetail(id) {
+  currentProduct = PRODUCTS.find(p=>p.id===id);
+  const p = currentProduct;
+  qtyVal = 1;
+  document.getElementById('modal-emoji').textContent = p.icon;
+  document.querySelector('#modal-cat span').textContent = getCatName(p.cat) + ' › ' + p.sub;
+  document.getElementById('modal-name').textContent = p.name;
+  document.getElementById('modal-brand').textContent = p.brand;
+  document.getElementById('modal-stars').textContent = getStars(p.rating) + ' ' + p.rating;
+  document.getElementById('modal-reviews').textContent = '(' + p.reviews + ' نظر)';
+  document.getElementById('modal-desc').textContent = p.desc;
+  document.getElementById('modal-price').textContent = p.price.toLocaleString() + ' تومان';
+  const oldEl = document.getElementById('modal-old-price');
+  const discEl = document.getElementById('modal-discount');
+  if(p.oldPrice){
+    oldEl.textContent = p.oldPrice.toLocaleString() + ' تومان';
+    const disc = Math.round((1-p.price/p.oldPrice)*100);
+    discEl.textContent = disc + '% تخفیف';
+    discEl.style.display = 'inline-block';
+  } else {
+    oldEl.textContent=''; discEl.style.display='none';
+  }
+  document.getElementById('modal-specs').innerHTML = p.specs.map(s=>`
+    <div class="spec-item"><div class="spec-l">${s.l}</div><div class="spec-v">${s.v}</div></div>
+  `).join('');
+  document.getElementById('stock-info').textContent = p.stock + ' عدد موجود در انبار';
+  document.getElementById('qty-val').value = 1;
+  document.getElementById('gallery-thumbs').innerHTML = `
+    <div class="thumb active" onclick=""><span style="font-size:22px">${p.icon}</span></div>
+  `;
+  updateTotal();
+  document.getElementById('modal-bg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal-bg').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function triggerUpload() { document.getElementById('file-input').click(); }
+
+function handleFiles(e) {
+  const files = Array.from(e.target.files);
+  const thumbs = document.getElementById('gallery-thumbs');
+  files.forEach(f=>{
+    const url = URL.createObjectURL(f);
+    const isVideo = f.type.startsWith('video');
+    const div = document.createElement('div');
+    div.className = 'thumb';
+    if(isVideo){
+      div.innerHTML=`<i class="ti ti-video" style="font-size:20px;color:var(--text3)"></i>`;
+      div.onclick=()=>{
+        document.getElementById('modal-gallery').innerHTML=`<video src="${url}" controls style="width:100%;height:100%;object-fit:contain"></video>`;
+      };
+    } else {
+      div.innerHTML=`<img src="${url}" alt="تصویر بارگذاری شده">`;
+      div.onclick=()=>{
+        document.getElementById('modal-gallery').innerHTML=
+          `<span id="modal-emoji" style="display:none"></span><img src="${url}" alt="تصویر کالا" style="width:100%;height:100%;object-fit:contain">`;
+      };
+    }
+    thumbs.appendChild(div);
+  });
+  showToast(files.length + ' فایل بارگذاری شد');
+}
+
+function changeQty(d) {
+  qtyVal = Math.max(1, parseInt(document.getElementById('qty-val').value||1) + d);
+  document.getElementById('qty-val').value = qtyVal;
+  updateTotal();
+}
+
+function updateTotal() {
+  qtyVal = parseInt(document.getElementById('qty-val').value)||1;
+  if(currentProduct){
+    const total = currentProduct.price * qtyVal;
+    document.getElementById('order-total-price').textContent = total.toLocaleString() + ' تومان';
+  }
+}
+
+function goToPayment() {
+  const name = document.getElementById('of-name').value.trim();
+  const phone = document.getElementById('of-phone').value.trim();
+  const addr = document.getElementById('of-addr').value.trim();
+  const city = document.getElementById('of-city').value.trim();
+  if(!name||!phone||!addr||!city){ showToast('⚠ لطفاً همه فیلدهای اجباری را پر کنید'); return; }
+  if(!/^09\d{9}$/.test(phone)){ showToast('⚠ شماره موبایل معتبر نیست'); return; }
+  qtyVal = parseInt(document.getElementById('qty-val').value)||1;
+  orderData = {
+    name, phone, addr, city,
+    postal: document.getElementById('of-postal').value.trim(),
+    product: currentProduct,
+    qty: qtyVal,
+    total: currentProduct.price * qtyVal
+  };
+  document.getElementById('pi-product').textContent = currentProduct.name;
+  document.getElementById('pi-qty').textContent = qtyVal + ' عدد';
+  document.getElementById('pi-buyer').textContent = name;
+  document.getElementById('pi-total').textContent = orderData.total.toLocaleString() + ' تومان';
+  closeModal();
+  showView('payment');
+}
+
+function confirmPayment() {
+  const code = 'IC-' + Math.floor(10000+Math.random()*90000);
+  orders.unshift({
+    id: code,
+    product: orderData.product.name,
+    productIcon: orderData.product.icon,
+    qty: orderData.qty,
+    total: orderData.total,
+    customer: orderData.name,
+    phone: orderData.phone,
+    city: orderData.city,
+    addr: orderData.addr,
+    postal: orderData.postal,
+    time: new Date().toLocaleTimeString('fa-IR'),
+    date: new Date().toLocaleDateString('fa-IR'),
+    status: 'new'
+  });
+  document.getElementById('success-code').textContent = '#' + code;
+  document.getElementById('order-summary').innerHTML = `
+    <div class="osb-row"><span class="osb-l">کالا</span><span class="osb-v">${orderData.product.name}</span></div>
+    <div class="osb-row"><span class="osb-l">تعداد</span><span class="osb-v">${orderData.qty} عدد</span></div>
+    <div class="osb-row"><span class="osb-l">خریدار</span><span class="osb-v">${orderData.name}</span></div>
+    <div class="osb-row"><span class="osb-l">شهر</span><span class="osb-v">${orderData.city}</span></div>
+    <div class="osb-row" style="border-top:1px solid var(--border);padding-top:8px;margin-top:4px">
+      <span class="osb-l" style="font-weight:500">مبلغ پرداختی</span>
+      <span class="osb-v" style="color:var(--gold-dark);font-size:15px">${orderData.total.toLocaleString()} تومان</span>
+    </div>
+  `;
+  showView('success');
+  document.getElementById('cart-badge').textContent = '0';
+}
+
+function openCart() { showToast('سبد خرید · برای سفارش کامل، کالا را انتخاب کنید'); }
+
+function sortProducts(type, btn) {
+  activeSort = type;
+  document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  sortList();
+  renderProductGrid();
+}
+
+function setView(v, btn) {
+  document.querySelectorAll('.vbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const grid = document.getElementById('product-grid');
+  if(v==='list'){
+    grid.style.gridTemplateColumns='1fr';
+  } else {
+    grid.style.gridTemplateColumns='repeat(auto-fill,minmax(180px,1fr))';
+  }
+}
+
+function liveSearch() { renderProducts(); }
+function doSearch() { renderProducts(); }
+function applyPriceFilter() {
+  const min = parseInt(document.getElementById('price-min').value)||0;
+  const max = parseInt(document.getElementById('price-max').value)||Infinity;
+  filteredProducts = (activeCat==='all'?PRODUCTS:PRODUCTS.filter(p=>p.cat===activeCat))
+    .filter(p=>p.price>=min&&p.price<=max);
+  renderProductGrid();
+  showToast('فیلتر قیمت اعمال شد');
+}
+function filterRating(r) {
+  filteredProducts = (activeCat==='all'?PRODUCTS:PRODUCTS.filter(p=>p.cat===activeCat))
+    .filter(p=>p.rating>=r);
+  renderProductGrid();
+  showToast('فیلتر امتیاز اعمال شد');
+}
+
+function adminLogin() {
+  const u = document.getElementById('al-user').value;
+  const p = document.getElementById('al-pass').value;
+  if(u==='admin'&&p==='1234'){
+    document.getElementById('admin-login-wrap').style.display='none';
+    document.getElementById('admin-dash').style.display='block';
+    renderAdminDash();
+  } else {
+    const err = document.getElementById('alp-err');
+    err.style.display='block';
+    setTimeout(()=>err.style.display='none', 3000);
+  }
+}
+
+function adminLogout() {
+  document.getElementById('admin-login-wrap').style.display='block';
+  document.getElementById('admin-dash').style.display='none';
+  document.getElementById('al-user').value='';
+  document.getElementById('al-pass').value='';
+  showView('shop');
+}
+
+function renderAdminDash() {
+  const newOrders = orders.filter(o=>o.status==='new');
+  document.getElementById('ds-total').textContent = orders.length;
+  document.getElementById('ds-new').textContent = newOrders.length;
+  document.getElementById('ds-revenue').textContent = orders.reduce((s,o)=>s+o.total,0).toLocaleString();
+  document.getElementById('ds-items').textContent = orders.reduce((s,o)=>s+o.qty,0);
+  document.getElementById('new-orders-badge').textContent = newOrders.length + ' سفارش جدید';
+  renderOrdersList();
+}
+
+function filterOrders(status, btn) {
+  activeAdminFilter = status;
+  document.querySelectorAll('.ot-filter').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderOrdersList();
+}
+
+function renderOrdersList() {
+  const list = document.getElementById('orders-list');
+  const shown = activeAdminFilter==='all' ? orders : orders.filter(o=>o.status===activeAdminFilter);
+  if(!shown.length){
+    list.innerHTML=`<div class="empty-orders"><i class="ti ti-inbox" aria-hidden="true"></i>هنوز سفارشی ثبت نشده</div>`;
+    return;
+  }
+  list.innerHTML = shown.map(o=>`
+    <div class="order-row">
+      <div class="or-top">
+        <span class="or-id">#${o.id}</span>
+        <span class="or-status st-${o.status==='new'?'new2':o.status==='processing'?'proc':'done2'}">
+          ${o.status==='new'?'جدید':o.status==='processing'?'در پردازش':'تحویل داده شد'}
+        </span>
+        <span class="or-time">${o.date} · ${o.time}</span>
+        <span class="or-amount">${o.total.toLocaleString()} تومان</span>
+        <select style="font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--border2);background:var(--surface);color:var(--text2);cursor:pointer"
+          onchange="changeOrderStatus('${o.id}',this.value)">
+          <option value="new" ${o.status==='new'?'selected':''}>جدید</option>
+          <option value="processing" ${o.status==='processing'?'selected':''}>در پردازش</option>
+          <option value="done" ${o.status==='done'?'selected':''}>تحویل داده شد</option>
+        </select>
+      </div>
+      <div class="or-detail">
+        <span><i class="ti ti-package" style="font-size:12px" aria-hidden="true"></i>${o.productIcon} ${o.product} × ${o.qty}</span>
+        <span><i class="ti ti-user" style="font-size:12px" aria-hidden="true"></i>${o.customer}</span>
+        <span><i class="ti ti-phone" style="font-size:12px" aria-hidden="true"></i>${o.phone}</span>
+        <span><i class="ti ti-building" style="font-size:12px" aria-hidden="true"></i>${o.city}</span>
+      </div>
+      <div class="or-addr">
+        <i class="ti ti-map-pin" style="font-size:12px;flex-shrink:0;margin-top:1px" aria-hidden="true"></i>
+        ${o.addr}${o.postal?' · کد پستی: '+o.postal:''}
+      </div>
+    </div>
+  `).join('');
+}
+
+function changeOrderStatus(id, status) {
+  const o = orders.find(x=>x.id===id);
+  if(o){ o.status=status; renderAdminDash(); showToast('وضعیت سفارش بروزرسانی شد'); }
+}
+
+// Init
+renderSidebar();
+renderProducts();
+
+// Keyboard support
+document.addEventListener('keydown', e => {
+  if(e.key==='Escape') closeModal();
+});
+</script>
+</body>
+</html>
